@@ -1,0 +1,4 @@
+core          = "7.x"
+description   = "Provide extra settings for blocks"
+name          = "Block Settings Extra"
+dependencies[] = block

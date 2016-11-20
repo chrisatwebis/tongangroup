@@ -1,0 +1,17 @@
+name = Tweet Feed
+description = Views implementation of Twitter Feeds
+package = Other
+core = 7.x
+
+dependencies[] = views
+dependencies[] = oauth_common
+dependencies[] = ctools
+
+configure = admin/configure/tweet_feed
+
+; Information added by  packaging script on 2013-11-21
+version = "7.x-1.4"
+core = "7.x"
+project = "tweet_feed"
+datestamp = "1385057905"
+

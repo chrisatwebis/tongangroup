@@ -1,0 +1,18 @@
+{
+  "name": "o24_product",
+  "version": "1.0.0",
+  "author": "Chris Chen",
+  "homepage": "http://www.webis.ca",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-compass": "v0.9.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-sass": "^0.7.4",
+    "grunt-contrib-watch": "v0.6.1",
+    "grunt-open": "~0.2.0",
+    "path": "~0.4.9"
+  }
+}

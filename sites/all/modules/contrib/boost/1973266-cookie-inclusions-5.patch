@@ -1,0 +1,260 @@
+From 3a009bc3f31896765a9e5decf540723840535690 Mon Sep 17 00:00:00 2001
+From: theduke <chris@theduke.at>
+Date: Wed, 24 Apr 2013 17:15:05 +0200
+Subject: [PATCH] Implementing cookie inclusions.
+
+---
+ boost.admin.htaccess.inc |   12 ++++++
+ boost.admin.inc          |   13 ++++++
+ boost.install            |    1 -
+ boost.module             |  100 +++++++++++++++++++++++++++++++---------------
+ 4 files changed, 93 insertions(+), 33 deletions(-)
+
+diff --git a/boost.admin.htaccess.inc b/boost.admin.htaccess.inc
+index 3bebe36..feb349c 100644
+--- a/boost.admin.htaccess.inc
++++ b/boost.admin.htaccess.inc
+@@ -222,6 +222,18 @@ function boost_admin_htaccess_generate_htaccess() {
+     $string .= "  # Allow for alt paths to be set via htaccess rules; allows for cached variants (future mobile support)\n";
+     $string .= "  RewriteRule .* - [E=boostpath:$normal_dir]\n";
+     $string .= "\n";
++
++     // Handle cookie inclusions.
++
++    $string .= "  # Handle cookie inclusions\n";
++
++    $cookie_inclusions = boost_get_cookie_inclusions();
++
++    foreach ($cookie_inclusions as $cookie) {
++      $string .= "  RewriteCond %{HTTP_COOKIE} $cookie=([^;]+) [NC]\n";
++      $string .= "  RewriteRule .* - [E=boostpath:%{ENV:boostpath}_$cookie=%1]\n\n";
++    }
++
+     $string .= "  # Caching for anonymous users\n";
+     $string .= "  # Skip boost IF not get request OR uri has wrong dir OR cookie is set OR request came from this server" . (variable_get('boost_ssl_bypass', BOOST_SSL_BYPASS) ? " OR https request" : "") . "\n";
+     $string .= "  RewriteCond %{REQUEST_METHOD} !^(GET|HEAD)$ [OR]\n";
+diff --git a/boost.admin.inc b/boost.admin.inc
+index 9001208..cf4497a 100644
+--- a/boost.admin.inc
++++ b/boost.admin.inc
+@@ -46,6 +46,19 @@ function boost_admin_settings() {
+     '#description' => $description,
+   );
+ 
++  // Cookie inclusions.
++
++  $form['cookies'] = array(
++    '#type' => 'fieldset',
++    '#title' => t('Cookie inclusions'),
++  );
++
++  $form['cookies']['boost_cookie_inclusions'] = array(
++    '#type' => 'textarea',
++    '#title' => '<span class="element-invisible">' . t('Cookies to respect in cache generation') . '</span>',
++    '#description' => t('If your page can look or behave differently when certain cookies are set, boost needs to know about them.') . '<br />' . t('Enter the name of all cookies that should be respected, one cookie per line.') . '<br /><br />' . t('Note that <b>you need to re-generate your htaccess file after changing this setting</b>.'),
++    '#default_value' => variable_get('boost_cookie_inclusions', BOOST_COOKIE_INCLUSIONS),
++  );
+ 
+   $types = boost_get_storage_types();
+   $period = drupal_map_assoc(array(0, 60, 180, 300, 600, 900, 1800, 2700, 3600, 10800, 21600, 32400, 43200, 64800, 86400, 2*86400, 3*86400, 4*86400, 5*86400, 6*86400, 604800, 2*604800, 3*604800, 4*604800, 8*604800, 16*604800, 52*604800), 'format_interval');
+diff --git a/boost.install b/boost.install
+index d9ece00..d3995c7 100644
+--- a/boost.install
++++ b/boost.install
+@@ -12,7 +12,6 @@
+  * Implements hook_enable().
+  */
+ function boost_enable() {
+-  boost_htaccess_cache_dir_put();
+ }
+ 
+ /**
+diff --git a/boost.module b/boost.module
+index d4825ad..a4c5a7e 100644
+--- a/boost.module
++++ b/boost.module
+@@ -12,6 +12,11 @@
+ define('BOOST_CACHEABILITY_PAGES', '');
+ 
+ /**
++ * Default cookie inclusions.
++ */
++define('BOOST_COOKIE_INCLUSIONS', '');
++
++/**
+  * Whether the host supports gzip
+  */
+ define('BOOST_GZIP', function_exists('gzencode'));
+@@ -188,7 +193,7 @@ function boost_menu() {
+ function boost_permission() {
+   return array(
+     'boost flush pages' => array(
+-      'title' => t('Flush pages from Boost cache'), 
++      'title' => t('Flush pages from Boost cache'),
+       'description' => t('Allow users to flush individual pages from the Boost cache using the Boost status block.'),
+     ),
+   );
+@@ -199,7 +204,7 @@ function boost_permission() {
+  */
+ function boost_block_info() {
+   $blocks['status'] = array(
+-    'info' => t('Boost: Pages cache status'), 
++    'info' => t('Boost: Pages cache status'),
+     'cache' => DRUPAL_NO_CACHE,
+   );
+ 
+@@ -317,6 +322,11 @@ function boost_exit($destination = NULL) {
+     $data .= $note;
+   }
+ 
++  // Ensure that .htaccess exists.
++  if (!is_file($_boost['base_dir'] . '.htaccess')) {
++    boost_htaccess_cache_dir_put($_boost['base_dir'] . '.htaccess');
++  }
++
+   // Write data to a file.
+   if ($_boost['filename']) {
+     // Attach extension to filename.
+@@ -336,15 +346,10 @@ function boost_exit($destination = NULL) {
+  * Implements hook_cron(). Performs periodic actions.
+  */
+ function boost_cron() {
+-  // Remove expired files from the cache.
+-  global $_boost;
++  $root = variable_get('boost_root_cache_dir', BOOST_ROOT_CACHE_DIR);
+ 
+-  // This was not invoked in hook_init because of the quick check to
+-  // avoid caching requests from the CLI
+-  $_boost = boost_transform_url();
+-
+-  if (isset($_boost['base_dir']) && variable_get('boost_expire_cron', BOOST_EXPIRE_CRON)) {
+-    $count = _boost_rmdir($_boost['base_dir'], FALSE);
++  if (is_dir($root) && variable_get('boost_expire_cron', BOOST_EXPIRE_CRON)) {
++    $count = _boost_rmdir($root, FALSE, FALSE);
+     if (variable_get('boost_message_debug', BOOST_MESSAGE_DEBUG)) {
+       watchdog('boost', 'Expired %count stale files from static page cache.', array('%count' => $count), WATCHDOG_NOTICE);
+     }
+@@ -355,17 +360,12 @@ function boost_cron() {
+  * Implements hook_flush_caches(). Deletes all static files.
+  */
+ function boost_flush_caches() {
+-  // Remove all files from the cache
+-  global $_boost;
+-
+-  // This may not have been invoked in hook_init because of the quick
+-  // check to avoid caching requests from the CLI
+-  $_boost = boost_transform_url();
++  $root = variable_get('boost_root_cache_dir', BOOST_ROOT_CACHE_DIR);
+ 
+   // The lock_may_be_available() checks to see if the flush was requested by
+   // the core cron, since we may want to ignore it (boost_ignore_flush)
+-  if (isset($_boost['base_dir']) && (lock_may_be_available('cron') || variable_get('boost_ignore_flush', BOOST_IGNORE_FLUSH) == FALSE)) {
+-    $count = _boost_rmdir($_boost['base_dir'], TRUE);
++  if (is_dir($root) && (lock_may_be_available('cron') || variable_get('boost_ignore_flush', BOOST_IGNORE_FLUSH) == FALSE)) {
++    $count = _boost_rmdir($root, TRUE, FALSE);
+     watchdog('boost', 'Flushed all files (%count) from static page cache.', array('%count' => $count), WATCHDOG_NOTICE);
+   }
+   return;
+@@ -472,11 +472,41 @@ function boost_transform_url($url = NULL, $b_path = NULL) {
+   return $items[$hash];
+ }
+ 
++function boost_get_normal_cache_dir() {
++  $root = variable_get('boost_root_cache_dir', BOOST_ROOT_CACHE_DIR) . '/';
++
++  // Allow altering the boostpath with the boostpath environment variable.
++  // This can be set from an .htaccess file, for example, when the mod_env
++  // apache module is enabled.
++  $dir = getenv('boostpath');
++  if (!$dir) {
++    $dir = variable_get('boost_normal_dir', BOOST_NORMAL_DIR);
++  }
++
++  // If any cookies should be included in the cache dir, they are appended here.
++  $cookie_inclusions = boost_get_cookie_inclusions();
++
++  if (count($cookie_inclusions)) {
++    $boost_char = variable_get('boost_char', BOOST_CHAR);
++
++    foreach ($cookie_inclusions as $cookie) {
++      if (isset($_COOKIE[$cookie])) {
++        $dir .= $boost_char . $cookie . '=' . $_COOKIE[$cookie];
++      }
++    }
++  }
++
++  return $root . $dir;
++}
++
+ /**
+- * Returns the relative normal cache dir. cache/normal.
++ * Get the names of all cookies that should be included in the cache dir path.
++ *
++ * @return array
+  */
+-function boost_get_normal_cache_dir() {
+-  return variable_get('boost_root_cache_dir', BOOST_ROOT_CACHE_DIR) . '/' . variable_get('boost_normal_dir', BOOST_NORMAL_DIR);
++function boost_get_cookie_inclusions() {
++  $data = variable_get('boost_cookie_inclusions', BOOST_COOKIE_INCLUSIONS);
++  return array_filter(explode('\n', $data));
+ }
+ 
+ /**
+@@ -1187,8 +1217,10 @@ function boost_boost_storage_types() {
+  *   The top-level directory that will be recursively removed.
+  * @param $flush
+  *   Instead of removing expired cached files, remove all files.
++ * @param $delete_root
++ *   Specifies if $dir can be deleted if it is empty.
+  */
+-function _boost_rmdir($dir, $flush = TRUE) {
++function _boost_rmdir($dir, $flush = TRUE, $delete_root = TRUE) {
+   static $lifetimes = array();
+   static $counter = 0;
+   if (is_dir($dir) == FALSE) {
+@@ -1245,7 +1277,7 @@ function _boost_rmdir($dir, $flush = TRUE) {
+       }
+     }
+   }
+-  if ($empty_dir && is_dir($dir)) {
++  if ($delete_root && $empty_dir && is_dir($dir)) {
+     // #1138630 @ error suppression used due to rmdir being a race condition.
+     @rmdir($dir);
+   }
+@@ -1432,20 +1464,24 @@ function boost_deliver_html_page($page_callback_result) {
+  * Always run these functions after a form submit from boost.
+  */
+ function boost_form_submit_handler() {
+-  register_shutdown_function('boost_htaccess_cache_dir_put');
++  register_shutdown_function('boost_htaccess_cache_dir_rebuild');
+ }
+ 
+ /**
+- * Overwrite old htaccess rules with new ones.
++ * Re-generate all old .htaccess files in the cache dir.
+  */
+-function boost_htaccess_cache_dir_put() {
+-  global $_boost, $base_path, $base_root;
+-  if (empty($_boost['base_dir'])) {
+-    $url = $base_root . request_uri();
+-    $parts = parse_url($url);
+-    $_boost['base_dir'] = boost_get_normal_cache_dir() . '/' . $parts['host'] . $base_path;
++function boost_htaccess_cache_dir_rebuild() {
++  $root = variable_get('boost_root_cache_dir', BOOST_ROOT_CACHE_DIR);
++  foreach (glob($root . '/*/*/.htaccess') as $file) {
++    boost_htaccess_cache_dir_put($file);
+   }
+-  boost_write_file($_boost['base_dir'] . '.htaccess', boost_htaccess_cache_dir_generate());
++}
++
++/**
++ * Overwrite old htaccess rules with new ones.
++ */
++function boost_htaccess_cache_dir_put($path) {
++  boost_write_file($path, boost_htaccess_cache_dir_generate());
+ }
+ 
+ /**
+-- 
+1.7.2.5
+

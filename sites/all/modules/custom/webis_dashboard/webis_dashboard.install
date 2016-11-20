@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Webis Dashboard installation routines
+ */
+
+/**
+ * Implements hook_schema().
+ */
+function webis_dashboard_schema() {
+  //place holder
+}
+
+/**
+ * Implements hook_uninstall().
+ */
+function webis_dashboard_uninstall() {
+  //place holder
+}
+
+/**
+ * Implements hook_install().
+ */
+function webis_dashboard_install() {
+
+}
+/**
+ * Implements hook_disable().
+ */
+function webis_dashboard_disable() {
+  //Place holder
+}

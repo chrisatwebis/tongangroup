@@ -1,0 +1,8 @@
+name = Webis Dashboard
+description = Create site management dashboard for webis.
+core = 7.x
+version = "7.x-1.0"
+configure = admin/webis_dashboard
+package = Webis
+
+;scripts[] = js/webis_dashboard.behaviors.js
