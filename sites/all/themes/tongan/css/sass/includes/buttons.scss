@@ -1,0 +1,127 @@
+
+.blue_btn {
+  @extend .btn;
+  @extend .btn-primary;
+  border: 0px;
+  font-size: $medium_font_size_xs;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  background-color: $blue;
+  padding: 8px 18px;
+  border-radius: 0px;
+  @media screen and (min-width: $screen-sm) {
+    font-size: $medium_font_size_sm;
+  }
+  @media screen and (min-width: $screen-md) {
+    font-size: $medium_font_size_md;
+  }      
+  @media screen and (min-width: $screen-lg) {
+    font-size: $medium_font_size_lg;
+  }
+}
+
+.orange_btn {
+  @extend .btn;
+  @extend .btn-primary;
+  border: 0px;
+  font-size: $medium_font_size_xs;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: bold;
+  background-color: $orange_red;
+  padding: 8px 18px;
+  border-radius: 0px;
+  &:hover {
+    background-color: $grey;
+    border-color: $dark_grey;
+  }
+  @media screen and (min-width: $screen-sm) {
+    font-size: $medium_font_size_sm;
+  }
+  @media screen and (min-width: $screen-md) {
+    font-size: $medium_font_size_md;
+  }      
+  @media screen and (min-width: $screen-lg) {
+    font-size: $medium_font_size_lg;
+  }
+}
+
+.light_blue_btn {
+  @extend .blue_btn;
+  background-color: $light_blue;
+}
+.medium_dark_blue_btn {
+  @extend .blue_btn;
+  background-color: $medium_dark_blue;
+}
+.dark_blue_btn {
+  @extend .blue_btn;
+  background-color: $dark_blue;
+}
+
+.blue_bold_btn {
+  @extend .blue_btn;
+  font-weight: bold;  
+}
+.light_blue_bold_btn {
+  @extend .light_blue_btn;
+  font-weight: bold;  
+}
+.medium_dark_blue_bold_btn {
+  @extend .medium_dark_blue_btn;
+  font-weight: bold;  
+}
+.dark_blue_bold_btn {
+  @extend .dark_blue_btn;
+  font-weight: bold;  
+}
+
+.orange_red_bold_btn {
+  @extend .orange_btn;
+  background-color: $orange_red;
+  font-weight: bold;
+}
+
+.btn_with_arrow {
+  padding-right: 50px;
+  background-image: url("img/buttons/btn_arrow_right_r18.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+.blue_btn_with_arrow {
+  @extend .blue_btn;
+  @extend .btn_with_arrow;
+}
+.medium_dark_blue_btn_with_arrow {
+  @extend .medium_dark_blue_btn;
+  @extend .btn_with_arrow;
+}
+.dark_blue_btn_with_arrow {
+  @extend .dark_blue_btn;
+  @extend .btn_with_arrow;
+}
+.blue_bold_btn_with_arrow {
+  @extend .blue_bold_btn;
+  @extend .btn_with_arrow;
+}
+.medium_dark_blue_bold_btn_with_arrow {
+  @extend .medium_dark_blue_bold_btn;
+  @extend .btn_with_arrow;
+}
+.dark_blue_bold_btn_with_arrow {
+  @extend .dark_blue_bold_btn;
+  @extend .btn_with_arrow;
+}
+
+.btn_with_arrow_with_orange_bk {
+  padding-right: 56px;
+  padding-left: 30px;
+  background-image: url("img/buttons/btn-arrow.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+.orange_red_bold_btn_with_arrow {
+  @extend .orange_red_bold_btn;
+  @extend .btn_with_arrow_with_orange_bk;
+}
