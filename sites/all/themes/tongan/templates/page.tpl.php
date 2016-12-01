@@ -77,7 +77,7 @@
 <header role="banner" id="page-header" >
   <div class="container">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <div class="row">
           <?php if ($logo): ?>
           <div class="col-xs-8 col-sm-12">
@@ -103,7 +103,7 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-8">
+      <div class="col-sm-9">
         <div id="navbar" role="banner" class="">
           <div class="navbar navbar-default">
 
@@ -243,7 +243,7 @@
       <div class="col-sm-4">
         <?php if ($logo): ?>
         <a class="logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img src="<?php print url("/sites/all/themes/first_world/logo-grey.png")?>" alt="<?php print t('Home'); ?>" />
+          <img src="<?php print $base_path.drupal_get_path('theme', 'tongan')."/logo-grey.png"; ?>" alt="<?php print t('Home'); ?>" />
         </a>
         <?php endif; ?>
       </div>

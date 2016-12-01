@@ -275,6 +275,13 @@
 								color: $header_black;
 								text-transform: uppercase;
 								font-weight: bolder;
+								&:focus {
+									background: none;
+								}
+								&:hover {
+									background: none;
+									color: $orange_red;
+								}
 							}
 							&.active {
 								a {
@@ -285,7 +292,9 @@
 					}
 					&.affix {
 						position: fixed;
-						top: 130px;
+						top: 0px;
+						padding-top: 50px;
+						padding-bottom: 50px;
 						background: url("img/background/white_transparent_bg.png") repeat center center transparent;
 						height: 100%;
 					}

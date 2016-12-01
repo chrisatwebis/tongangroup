@@ -96,31 +96,46 @@
     background-color: $extra_light_grey;
   }
   &.bg_color_light_grey {
-      background-color: $light_grey;
+    background-color: $light_grey;
   }
   &.bg_color_grey {
-      background-color: $grey;
+    background-color: $grey;
   }
   &.bg_color_medium_dark_grey {
-      background-color: $medium_dark_grey;
+    background-color: $medium_dark_grey;
   }
   &.bg_color_dark_grey {
-      background-color: $dark_grey;
+    background-color: $dark_grey;
+    .field-collection-container .field-collection-view .field-collection-item-field-mini-blocks.transparent .field {
+      color: $white;
+    }
   }
   &.bg_color_black {
-      background-color: $black;
+    background-color: $black;
+    .field-collection-container .field-collection-view .field-collection-item-field-mini-blocks.transparent .field {
+      color: $white;
+    }
   }
   &.bg_color_light_blue {
-      background-color: $light_blue;
+    background-color: $light_blue;
   }
   &.bg_color_blue {
-      background-color: $blue;
+    background-color: $blue;
+    .field-collection-container .field-collection-view .field-collection-item-field-mini-blocks.transparent .field {
+      color: $white;
+    }
   }
   &.bg_color_medium_dark_blue {
-      background-color: $medium_dark_blue;
+    background-color: $medium_dark_blue;
+    .field-collection-container .field-collection-view .field-collection-item-field-mini-blocks.transparent .field {
+      color: $white;
+    }
   }
   &.bg_color_dark_blue {
-      background-color: $dark_blue;
+    background-color: $dark_blue;
+    .field-collection-container .field-collection-view .field-collection-item-field-mini-blocks.transparent .field {
+      color: $white;
+    }
   }
   &.headline_black {
     .field-name-field-headline {
@@ -304,7 +319,7 @@
       .field-name-field-mini-blocks {
         .field-collection-item-field-mini-blocks {
           padding: 15px;
-          min-height: 200px;            
+          //min-height: 200px;
         }          
       }
     }
@@ -390,7 +405,7 @@
     .field-name-field-mini-blocks {
       .field-collection-item-field-mini-blocks {
         padding: 15px;
-        min-height: 260px;            
+        //min-height: 260px;            
       }          
     }
   }
@@ -411,7 +426,7 @@
     }
     .field-name-field-mini-blocks {
       .field-collection-item-field-mini-blocks {
-        min-height: 300px;            
+        //min-height: 300px;            
       }          
     }
   }
@@ -427,6 +442,9 @@
 .bean-color-block {
   text-align: center;
   padding: 40px 0;
+  > .content {
+    @extend .container;
+  }
   .field-name-field-color-block-headline {
     @extend h2;
     font-size: $xlarge_font_size_xs;

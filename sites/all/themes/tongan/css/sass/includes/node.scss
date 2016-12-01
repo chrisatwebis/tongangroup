@@ -89,39 +89,68 @@
 
 .node-page-with-banner {
   @extend .row;
-  > .group-header {
-    @extend .col-lg-offset-2;
-    @extend .col-lg-10;
-    .field-name-field-headline {
-      @extend h1;
-      margin-bottom: 20px;
+  &.view-mode-full {
+    > .group-header {
+      @extend .col-xs-12;
     }
-    .field-name-headline-with-anchor {
-      @extend .field-name-field-headline;
+    > .group-left {
+      @extend .col-md-9;
+      @extend .col-lg-10;
+    }
+    > .group-right {
+      @extend .hidden-xs;
+      @extend .hidden-sm;
+      @extend .col-md-3;
+      @extend .col-lg-2;
+      @media screen and (min-width: $screen-lg) {
+        padding-right: 50px;
+      }
+    }
+    > .group-footer {
+      @extend .col-md-12;
+      margin: 20px 0;
+      padding: 0px;
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }  
+  }
+  &.view-mode-views_content {
+    > .group-header {
+      @extend .col-lg-offset-2;
+      @extend .col-lg-10;
+    }
+    > .group-left {
+      @extend .col-md-9;
+      @extend .col-lg-offset-2;
+      @extend .col-lg-8;
+    }
+    > .group-right {
+      @extend .hidden-xs;
+      @extend .hidden-sm;
+      @extend .col-md-3;
+      @extend .col-lg-2;
+      @media screen and (min-width: $screen-lg) {
+        padding-right: 50px;
+      }    
+    }
+    > .group-footer {
+      @extend .col-md-12;
+      margin: 20px 0;
+      padding: 0px;
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
-  > .group-left {
-    @extend .col-md-9;
-    @extend .col-lg-offset-2;
-    @extend .col-lg-8;
+  .field-name-field-headline {
+    @extend h1;
+    margin-bottom: 20px;
   }
-  > .group-right {
-    @extend .hidden-xs;
-    @extend .hidden-sm;
-    @extend .col-md-3;
-    @extend .col-lg-2;
-    @media screen and (min-width: $screen-lg) {
-      padding-right: 50px;
-    }    
-  }
-  > .group-footer {
-    @extend .col-md-12;
-    margin: 20px 0;
-    padding: 0px;
-    img {
-      width: 100%;
-      height: auto;
-    }
+  .field-name-headline-with-anchor {
+    @extend .field-name-field-headline;
   }
   .field-name-title {
     display: none;
@@ -327,7 +356,7 @@
 /**
 *   Single page menu styling
 **/
-.page-solutions,
+.page-products,
 .page-services,
 .page-partners,
 .page-views,

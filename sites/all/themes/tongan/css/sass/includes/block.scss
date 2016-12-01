@@ -154,53 +154,6 @@
 	}
 }
 
-/**
-*		Rest-Assured block
-**/
-#block-bean-rest-assured {
-	.block-title {
-		display: none;
-	}
-	.field-name-field-color-block-description {
-		color: $black;
-	}
-}
-
-/**
-*		solutions block
-**/
-#block-bean-solutions {
-	.block-title {
-
-	}
-	.field-name-field-headline {
-		margin-top: 0px;
-	}
-	.field-name-field-title {
-		color: $white;
-	}
-	.field-name-field-description {
-		color: $white;
-		font-size: $xsmall_font_size;
-		font-weight: 600;
-		line-height: $xsmall_font_size * 1.8;
-
-	}
-	@media screen and (min-width: 768px) {
-		.field-type-field-collection {
-			>.field-items {
-				>.field-item {
-					&.even {
-						min-height: 458px;
-					}
-					&.odd {
-						min-height: 458px;
-					}
-				}
-			}
-		}
-	}
-}
 
 .solutions-bg {
 	background: url("img/background/solutions_bg.jpg") repeat center center #828282;
@@ -273,81 +226,6 @@
 	}
 }
 
-/**
-*  block-first-world-services
-**/
-#block-bean-first-world-services {
-	.block-title {
-		display: none;
-	}
-	.field-collection-item-field-mini-blocks {
-		display: none;
-	}
-	.field-name-field-headline {
-		margin-top: 0px;
-		.field-item {
-			color: $orange_red;
-		}
-	}
-	.block-description {
-		>p {
-			color: $black;
-			font-size: $small_font_size;
-			font-weight: 500;
-			line-height: $small_font_size * 2;
-		}
-	}
-	.services-block-items {
-		margin-top: 30px;
-		.block-item {
-			@extend .col-sm-4;
-		}
-		.item-content {
-			width: 90%;
-			background-color: $white;
-			margin: 0 auto;
-			.item-image {
-				img {
-					width: 100% !important;
-					height: auto !important;
-				}
-			}
-			.item-text {
-				text-align: center;
-				min-height: 270px;
-				.item-title {
-					margin: 20px 15px 0;
-					>p {
-						color: $black;
-						font-size: $small_font_size;
-						font-weight: 600;
-					}
-				}
-				.item-description {
-					padding: 20px;
-					>p {
-						color: $black;
-						font-size: $xxsmall_font_size;
-						font-weight: normal;
-						line-height: 200%;
-						padding: 0px;
-					}
-				}
-			}
-		}
-	}
-	@media screen and (max-width: 768px) {
-		.services-block-items {
-			>.block-item {
-				margin-bottom: 20px;
-				.item-text {
-					min-height: max-content;
-					padding-bottom: 10px;
-				}
-			}
-		}
-	}
-}
 
 /**
 *		Our Best Partners Block
@@ -441,17 +319,6 @@
 	@extend .container;
 }
 
-// Banner Block above First-World Service
-#block-bean-home-above-service-banner-bloc {
-	.content {
-		padding: 0px;
-		width: 100%;
-		img {
-			width: 100%;
-		}
-	}
-}
-
 
 
 /**
@@ -534,5 +401,11 @@
 }
 
 
-
-
+#block-locale-language {
+	.language-switcher-locale-url {
+		li {
+			display: inline-block;
+			margin-left: 10px;
+		}
+	}	
+}

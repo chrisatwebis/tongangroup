@@ -46,7 +46,7 @@ a:active,
 a:hover {
   outline: 0; }
 
-h1, .node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header .field-name-headline-with-anchor {
+h1, .node-page-with-banner .field-name-field-headline, .node-page-with-banner .field-name-headline-with-anchor {
   font-size: 2em;
   margin: 0.67em 0; }
 
@@ -213,14 +213,14 @@ table {
   h2,
   .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item,
   .bean-mini-blocks-with-icons .field-name-field-headline,
-  .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor,
-  .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor,
+  .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor,
+  .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor,
   .bean-color-block .field-name-field-color-block-headline,
   h3 {
     orphans: 3;
     widows: 3; }
 
-  h2, .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item, .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor, .bean-color-block .field-name-field-color-block-headline,
+  h2, .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item, .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor, .bean-color-block .field-name-field-color-block-headline,
   h3 {
     page-break-after: avoid; }
 
@@ -420,21 +420,21 @@ cite {
 .text-center {
   text-align: center; }
 
-h1, .node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header .field-name-headline-with-anchor, h2, .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item, .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor, .bean-color-block .field-name-field-color-block-headline, h3, h4, h5, h6,
+h1, .node-page-with-banner .field-name-field-headline, .node-page-with-banner .field-name-headline-with-anchor, h2, .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item, .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor, .bean-color-block .field-name-field-color-block-headline, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit; }
-  h1 small, .node-page-with-banner > .group-header .field-name-field-headline small, .node-page-with-banner > .group-header .field-name-headline-with-anchor small,
+  h1 small, .node-page-with-banner .field-name-field-headline small, .node-page-with-banner .field-name-headline-with-anchor small,
   h1 .small,
-  .node-page-with-banner > .group-header .field-name-field-headline .small,
-  .node-page-with-banner > .group-header .field-name-headline-with-anchor .small, h2 small, .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item small, .bean-mini-blocks-with-icons .field-name-field-headline small, .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor small, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor small, .bean-color-block .field-name-field-color-block-headline small,
+  .node-page-with-banner .field-name-field-headline .small,
+  .node-page-with-banner .field-name-headline-with-anchor .small, h2 small, .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item small, .bean-mini-blocks-with-icons .field-name-field-headline small, .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor small, .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor small, .bean-color-block .field-name-field-color-block-headline small,
   h2 .small,
   .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item .small,
   .bean-mini-blocks-with-icons .field-name-field-headline .small,
-  .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor .small,
-  .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor .small,
+  .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor .small,
+  .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor .small,
   .bean-color-block .field-name-field-color-block-headline .small, h3 small,
   h3 .small, h4 small,
   h4 .small, h5 small,
@@ -451,31 +451,31 @@ h1, .node-page-with-banner > .group-header .field-name-field-headline, .node-pag
     line-height: 1;
     color: #999999; }
 
-h1, .node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header .field-name-headline-with-anchor,
+h1, .node-page-with-banner .field-name-field-headline, .node-page-with-banner .field-name-headline-with-anchor,
 h2,
 .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item,
 .bean-mini-blocks-with-icons .field-name-field-headline,
-.bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor,
-.node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor,
+.bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor,
+.node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor,
 .bean-color-block .field-name-field-color-block-headline,
 h3 {
   margin-top: 20px;
   margin-bottom: 10px; }
-  h1 small, .node-page-with-banner > .group-header .field-name-field-headline small, .node-page-with-banner > .group-header .field-name-headline-with-anchor small,
+  h1 small, .node-page-with-banner .field-name-field-headline small, .node-page-with-banner .field-name-headline-with-anchor small,
   h1 .small,
-  .node-page-with-banner > .group-header .field-name-field-headline .small,
-  .node-page-with-banner > .group-header .field-name-headline-with-anchor .small,
+  .node-page-with-banner .field-name-field-headline .small,
+  .node-page-with-banner .field-name-headline-with-anchor .small,
   h2 small,
   .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item small,
   .bean-mini-blocks-with-icons .field-name-field-headline small,
-  .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor small,
-  .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor small,
+  .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor small,
+  .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor small,
   .bean-color-block .field-name-field-color-block-headline small,
   h2 .small,
   .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item .small,
   .bean-mini-blocks-with-icons .field-name-field-headline .small,
-  .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor .small,
-  .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor .small,
+  .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor .small,
+  .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor .small,
   .bean-color-block .field-name-field-color-block-headline .small,
   h3 small,
   h3 .small {
@@ -494,10 +494,10 @@ h6 {
   h6 .small {
     font-size: 75%; }
 
-h1, .node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header .field-name-headline-with-anchor, .h1 {
+h1, .node-page-with-banner .field-name-field-headline, .node-page-with-banner .field-name-headline-with-anchor, .h1 {
   font-size: 36px; }
 
-h2, .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item, .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor, .bean-color-block .field-name-field-color-block-headline, .h2 {
+h2, .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item, .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor, .bean-color-block .field-name-field-color-block-headline, .h2 {
   font-size: 30px; }
 
 h3, .h3 {
@@ -657,17 +657,17 @@ pre {
   max-height: 340px;
   overflow-y: scroll; }
 
-.container, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content, .bean-banner-block .field-name-field-banner-block-banner, #block-block-12, .above-content-region-wrapper .entity-bean > .content, .below-content-region-wrapper .block {
+.container, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content, .node-carousel .field-name-carousel-text, .node-carousel .views-field-body, .bean-banner-block .field-name-field-banner-block-banner, .bean-color-block > .content, #block-block-12, .below-content-region-wrapper .block {
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px; }
-  .container:before, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content:before, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content:before, .bean-banner-block .field-name-field-banner-block-banner:before, #block-block-12:before, .above-content-region-wrapper .entity-bean > .content:before, .below-content-region-wrapper .block:before, .container:after, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content:after, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content:after, .bean-banner-block .field-name-field-banner-block-banner:after, #block-block-12:after, .above-content-region-wrapper .entity-bean > .content:after, .below-content-region-wrapper .block:after {
+  .container:before, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content:before, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content:before, .node-carousel .field-name-carousel-text:before, .node-carousel .views-field-body:before, .bean-banner-block .field-name-field-banner-block-banner:before, .bean-color-block > .content:before, #block-block-12:before, .below-content-region-wrapper .block:before, .container:after, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content:after, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content:after, .node-carousel .field-name-carousel-text:after, .node-carousel .views-field-body:after, .bean-banner-block .field-name-field-banner-block-banner:after, .bean-color-block > .content:after, #block-block-12:after, .below-content-region-wrapper .block:after {
     content: " ";
     /* 1 */
     display: table;
     /* 2 */ }
-  .container:after, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content:after, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content:after, .bean-banner-block .field-name-field-banner-block-banner:after, #block-block-12:after, .above-content-region-wrapper .entity-bean > .content:after, .below-content-region-wrapper .block:after {
+  .container:after, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content:after, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content:after, .node-carousel .field-name-carousel-text:after, .node-carousel .views-field-body:after, .bean-banner-block .field-name-field-banner-block-banner:after, .bean-color-block > .content:after, #block-block-12:after, .below-content-region-wrapper .block:after {
     clear: both; }
 
 .row, .view-the-board-of-directors.view-display-id-block_1 .view-content, .view-the-board-of-directors.view-display-id-block .view-content, .view-id-solutions.view-display-id-page .view-content, .view-id-services.view-display-id-page .view-content, .view-id-partners.view-display-id-page .view-content .views-row, .field-collection-item-field-quote, .bean-mini-blocks-with-icons.col_1 .field-name-field-mini-blocks > .field-items, .bean-mini-blocks-with-icons.col_2 .field-name-field-mini-blocks > .field-items, .bean-mini-blocks-with-icons.col_3 .field-name-field-mini-blocks > .field-items, .bean-mini-blocks-with-icons.col_4 .field-name-field-mini-blocks > .field-items, .block-president-quote-home .content, .node-webform, .node-webform .webform-client-form .webform-component.webform-component-date .webform-container-inline, .node-webform .webform-client-form .webform-component.webform-component-checkboxes .form-checkboxes, .node-page-with-banner {
@@ -681,13 +681,13 @@ pre {
   .row:after, .view-the-board-of-directors.view-display-id-block_1 .view-content:after, .view-the-board-of-directors.view-display-id-block .view-content:after, .view-id-solutions.view-display-id-page .view-content:after, .view-id-services.view-display-id-page .view-content:after, .view-id-partners.view-display-id-page .view-content .views-row:after, .field-collection-item-field-quote:after, .bean-mini-blocks-with-icons.col_1 .field-name-field-mini-blocks > .field-items:after, .bean-mini-blocks-with-icons.col_2 .field-name-field-mini-blocks > .field-items:after, .bean-mini-blocks-with-icons.col_3 .field-name-field-mini-blocks > .field-items:after, .bean-mini-blocks-with-icons.col_4 .field-name-field-mini-blocks > .field-items:after, .block-president-quote-home .content:after, .node-webform:after, .node-webform .webform-client-form .webform-component.webform-component-date .webform-container-inline:after, .node-webform .webform-client-form .webform-component.webform-component-checkboxes .form-checkboxes:after, .node-page-with-banner:after {
     clear: both; }
 
-.col-xs-12, .col-sm-12, .view-id-solutions.view-display-id-page .view-content .custom-view-content, .view-id-services.view-display-id-page .view-content .custom-view-content, .bean-mini-blocks-with-icons.col_1 .field-name-field-mini-blocks > .field-items > .field-item, .col-md-12, .node-page-with-banner > .group-footer, .col-lg-12, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .node-page-with-banner > .group-header, .col-xs-9, .col-sm-9, .view-id-partners.view-display-id-page .view-content .views-row .views-field-nothing, .field-collection-item-field-quote .group-right, #node-79 .field-items .description, .col-md-9, .node-page-with-banner > .group-left, .col-lg-9, .col-xs-8, .col-sm-8, .block-president-quote-home .quote-description, .col-md-8, .col-lg-8, .node-page-with-banner > .group-left, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-6, .col-sm-6, .bean-mini-blocks-with-icons.col_2 .field-name-field-mini-blocks > .field-items > .field-item, .bean-mini-blocks-with-icons.col_4 .field-name-field-mini-blocks > .field-items > .field-item, .node-webform .group-left, .node-webform .group-right, .node-webform .webform-client-form .webform-component.webform-component-checkboxes .form-checkboxes .checkbox, .col-md-6, .col-lg-6, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-4, .node-webform .webform-client-form .webform-component.webform-component-date .webform-container-inline .form-type-select, .col-sm-4, .view-the-board-of-directors.view-display-id-block_1 .view-content .views-row, .view-the-board-of-directors.view-display-id-block .view-content .views-row, .bean-mini-blocks-with-icons.col_3 .field-name-field-mini-blocks > .field-items > .field-item, .block-president-quote-home .quote-image, #block-bean-first-world-services .services-block-items .block-item, .col-md-4, .col-lg-4, .col-xs-3, .col-sm-3, .view-id-partners.view-display-id-page .view-content .views-row .views-field-field-logo-image, .field-collection-item-field-quote .group-left, #node-79 .field-items .image, .col-md-3, .bean-mini-blocks-with-icons.col_4 .field-name-field-mini-blocks > .field-items > .field-item, .node-page-with-banner > .group-right, .col-lg-3, .col-xs-2, .col-sm-2, .col-md-2, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .col-lg-2, .node-page-with-banner > .group-right, .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1 {
+.col-xs-12, .node-page-with-banner.view-mode-full > .group-header, .col-sm-12, .view-id-solutions.view-display-id-page .view-content .custom-view-content, .view-id-services.view-display-id-page .view-content .custom-view-content, .bean-mini-blocks-with-icons.col_1 .field-name-field-mini-blocks > .field-items > .field-item, .col-md-12, .node-page-with-banner.view-mode-full > .group-footer, .node-page-with-banner.view-mode-views_content > .group-footer, .col-lg-12, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .node-page-with-banner.view-mode-full > .group-left, .node-page-with-banner.view-mode-views_content > .group-header, .col-xs-9, .col-sm-9, .view-id-partners.view-display-id-page .view-content .views-row .views-field-nothing, .field-collection-item-field-quote .group-right, #node-79 .field-items .description, .col-md-9, .node-page-with-banner.view-mode-full > .group-left, .node-page-with-banner.view-mode-views_content > .group-left, .col-lg-9, .col-xs-8, .col-sm-8, .block-president-quote-home .quote-description, .col-md-8, .col-lg-8, .node-page-with-banner.view-mode-views_content > .group-left, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-6, .col-sm-6, .bean-mini-blocks-with-icons.col_2 .field-name-field-mini-blocks > .field-items > .field-item, .bean-mini-blocks-with-icons.col_4 .field-name-field-mini-blocks > .field-items > .field-item, .node-webform .group-left, .node-webform .group-right, .node-webform .webform-client-form .webform-component.webform-component-checkboxes .form-checkboxes .checkbox, .col-md-6, .col-lg-6, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-4, .node-webform .webform-client-form .webform-component.webform-component-date .webform-container-inline .form-type-select, .col-sm-4, .view-the-board-of-directors.view-display-id-block_1 .view-content .views-row, .view-the-board-of-directors.view-display-id-block .view-content .views-row, .bean-mini-blocks-with-icons.col_3 .field-name-field-mini-blocks > .field-items > .field-item, .block-president-quote-home .quote-image, .col-md-4, .col-lg-4, .col-xs-3, .col-sm-3, .view-id-partners.view-display-id-page .view-content .views-row .views-field-field-logo-image, .field-collection-item-field-quote .group-left, #node-79 .field-items .image, .col-md-3, .bean-mini-blocks-with-icons.col_4 .field-name-field-mini-blocks > .field-items > .field-item, .node-page-with-banner.view-mode-full > .group-right, .node-page-with-banner.view-mode-views_content > .group-right, .col-lg-3, .col-xs-2, .col-sm-2, .col-md-2, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .col-lg-2, .node-page-with-banner.view-mode-full > .group-right, .node-page-with-banner.view-mode-views_content > .group-right, .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px; }
 
-.col-xs-12, .col-xs-11, .col-xs-10, .col-xs-9, .col-xs-8, .col-xs-7, .col-xs-6, .col-xs-5, .col-xs-4, .node-webform .webform-client-form .webform-component.webform-component-date .webform-container-inline .form-type-select, .col-xs-3, .col-xs-2, .col-xs-1 {
+.col-xs-12, .node-page-with-banner.view-mode-full > .group-header, .col-xs-11, .col-xs-10, .col-xs-9, .col-xs-8, .col-xs-7, .col-xs-6, .col-xs-5, .col-xs-4, .node-webform .webform-client-form .webform-component.webform-component-date .webform-container-inline .form-type-select, .col-xs-3, .col-xs-2, .col-xs-1 {
   float: left; }
 
 .col-xs-1 {
@@ -723,7 +723,7 @@ pre {
 .col-xs-11 {
   width: 91.66667%; }
 
-.col-xs-12 {
+.col-xs-12, .node-page-with-banner.view-mode-full > .group-header {
   width: 100%; }
 
 .col-xs-pull-0 {
@@ -844,10 +844,10 @@ pre {
   margin-left: 100%; }
 
 @media (min-width: 768px) {
-  .container, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content, .bean-banner-block .field-name-field-banner-block-banner, #block-block-12, .above-content-region-wrapper .entity-bean > .content, .below-content-region-wrapper .block {
+  .container, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content, .node-carousel .field-name-carousel-text, .node-carousel .views-field-body, .bean-banner-block .field-name-field-banner-block-banner, .bean-color-block > .content, #block-block-12, .below-content-region-wrapper .block {
     width: 750px; }
 
-  .col-sm-12, .view-id-solutions.view-display-id-page .view-content .custom-view-content, .view-id-services.view-display-id-page .view-content .custom-view-content, .bean-mini-blocks-with-icons.col_1 .field-name-field-mini-blocks > .field-items > .field-item, .col-sm-11, .col-sm-10, .col-sm-9, .view-id-partners.view-display-id-page .view-content .views-row .views-field-nothing, .field-collection-item-field-quote .group-right, #node-79 .field-items .description, .col-sm-8, .block-president-quote-home .quote-description, .col-sm-7, .col-sm-6, .bean-mini-blocks-with-icons.col_2 .field-name-field-mini-blocks > .field-items > .field-item, .bean-mini-blocks-with-icons.col_4 .field-name-field-mini-blocks > .field-items > .field-item, .node-webform .group-left, .node-webform .group-right, .node-webform .webform-client-form .webform-component.webform-component-checkboxes .form-checkboxes .checkbox, .col-sm-5, .col-sm-4, .view-the-board-of-directors.view-display-id-block_1 .view-content .views-row, .view-the-board-of-directors.view-display-id-block .view-content .views-row, .bean-mini-blocks-with-icons.col_3 .field-name-field-mini-blocks > .field-items > .field-item, .block-president-quote-home .quote-image, #block-bean-first-world-services .services-block-items .block-item, .col-sm-3, .view-id-partners.view-display-id-page .view-content .views-row .views-field-field-logo-image, .field-collection-item-field-quote .group-left, #node-79 .field-items .image, .col-sm-2, .col-sm-1 {
+  .col-sm-12, .view-id-solutions.view-display-id-page .view-content .custom-view-content, .view-id-services.view-display-id-page .view-content .custom-view-content, .bean-mini-blocks-with-icons.col_1 .field-name-field-mini-blocks > .field-items > .field-item, .col-sm-11, .col-sm-10, .col-sm-9, .view-id-partners.view-display-id-page .view-content .views-row .views-field-nothing, .field-collection-item-field-quote .group-right, #node-79 .field-items .description, .col-sm-8, .block-president-quote-home .quote-description, .col-sm-7, .col-sm-6, .bean-mini-blocks-with-icons.col_2 .field-name-field-mini-blocks > .field-items > .field-item, .bean-mini-blocks-with-icons.col_4 .field-name-field-mini-blocks > .field-items > .field-item, .node-webform .group-left, .node-webform .group-right, .node-webform .webform-client-form .webform-component.webform-component-checkboxes .form-checkboxes .checkbox, .col-sm-5, .col-sm-4, .view-the-board-of-directors.view-display-id-block_1 .view-content .views-row, .view-the-board-of-directors.view-display-id-block .view-content .views-row, .bean-mini-blocks-with-icons.col_3 .field-name-field-mini-blocks > .field-items > .field-item, .block-president-quote-home .quote-image, .col-sm-3, .view-id-partners.view-display-id-page .view-content .views-row .views-field-field-logo-image, .field-collection-item-field-quote .group-left, #node-79 .field-items .image, .col-sm-2, .col-sm-1 {
     float: left; }
 
   .col-sm-1 {
@@ -859,7 +859,7 @@ pre {
   .col-sm-3, .view-id-partners.view-display-id-page .view-content .views-row .views-field-field-logo-image, .field-collection-item-field-quote .group-left, #node-79 .field-items .image {
     width: 25%; }
 
-  .col-sm-4, .view-the-board-of-directors.view-display-id-block_1 .view-content .views-row, .view-the-board-of-directors.view-display-id-block .view-content .views-row, .bean-mini-blocks-with-icons.col_3 .field-name-field-mini-blocks > .field-items > .field-item, .block-president-quote-home .quote-image, #block-bean-first-world-services .services-block-items .block-item {
+  .col-sm-4, .view-the-board-of-directors.view-display-id-block_1 .view-content .views-row, .view-the-board-of-directors.view-display-id-block .view-content .views-row, .bean-mini-blocks-with-icons.col_3 .field-name-field-mini-blocks > .field-items > .field-item, .block-president-quote-home .quote-image {
     width: 33.33333%; }
 
   .col-sm-5 {
@@ -1003,10 +1003,10 @@ pre {
   .col-sm-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 992px) {
-  .container, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content, .bean-banner-block .field-name-field-banner-block-banner, #block-block-12, .above-content-region-wrapper .entity-bean > .content, .below-content-region-wrapper .block {
+  .container, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content, .node-carousel .field-name-carousel-text, .node-carousel .views-field-body, .bean-banner-block .field-name-field-banner-block-banner, .bean-color-block > .content, #block-block-12, .below-content-region-wrapper .block {
     width: 970px; }
 
-  .col-md-12, .node-page-with-banner > .group-footer, .col-md-11, .col-md-10, .col-md-9, .node-page-with-banner > .group-left, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .bean-mini-blocks-with-icons.col_4 .field-name-field-mini-blocks > .field-items > .field-item, .node-page-with-banner > .group-right, .col-md-2, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .col-md-1 {
+  .col-md-12, .node-page-with-banner.view-mode-full > .group-footer, .node-page-with-banner.view-mode-views_content > .group-footer, .col-md-11, .col-md-10, .col-md-9, .node-page-with-banner.view-mode-full > .group-left, .node-page-with-banner.view-mode-views_content > .group-left, .col-md-8, .col-md-7, .col-md-6, .col-md-5, .col-md-4, .col-md-3, .bean-mini-blocks-with-icons.col_4 .field-name-field-mini-blocks > .field-items > .field-item, .node-page-with-banner.view-mode-full > .group-right, .node-page-with-banner.view-mode-views_content > .group-right, .col-md-2, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .col-md-1 {
     float: left; }
 
   .col-md-1 {
@@ -1015,7 +1015,7 @@ pre {
   .col-md-2, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator {
     width: 16.66667%; }
 
-  .col-md-3, .bean-mini-blocks-with-icons.col_4 .field-name-field-mini-blocks > .field-items > .field-item, .node-page-with-banner > .group-right {
+  .col-md-3, .bean-mini-blocks-with-icons.col_4 .field-name-field-mini-blocks > .field-items > .field-item, .node-page-with-banner.view-mode-full > .group-right, .node-page-with-banner.view-mode-views_content > .group-right {
     width: 25%; }
 
   .col-md-4 {
@@ -1033,7 +1033,7 @@ pre {
   .col-md-8 {
     width: 66.66667%; }
 
-  .col-md-9, .node-page-with-banner > .group-left {
+  .col-md-9, .node-page-with-banner.view-mode-full > .group-left, .node-page-with-banner.view-mode-views_content > .group-left {
     width: 75%; }
 
   .col-md-10 {
@@ -1042,7 +1042,7 @@ pre {
   .col-md-11 {
     width: 91.66667%; }
 
-  .col-md-12, .node-page-with-banner > .group-footer {
+  .col-md-12, .node-page-with-banner.view-mode-full > .group-footer, .node-page-with-banner.view-mode-views_content > .group-footer {
     width: 100%; }
 
   .col-md-pull-0 {
@@ -1162,16 +1162,16 @@ pre {
   .col-md-offset-12 {
     margin-left: 100%; } }
 @media (min-width: 1200px) {
-  .container, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content, .bean-banner-block .field-name-field-banner-block-banner, #block-block-12, .above-content-region-wrapper .entity-bean > .content, .below-content-region-wrapper .block {
+  .container, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content, .node-carousel .field-name-carousel-text, .node-carousel .views-field-body, .bean-banner-block .field-name-field-banner-block-banner, .bean-color-block > .content, #block-block-12, .below-content-region-wrapper .block {
     width: 1170px; }
 
-  .col-lg-12, .col-lg-11, .col-lg-10, .node-page-with-banner > .group-header, .col-lg-9, .col-lg-8, .node-page-with-banner > .group-left, .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2, .node-page-with-banner > .group-right, .col-lg-1 {
+  .col-lg-12, .col-lg-11, .col-lg-10, .node-page-with-banner.view-mode-full > .group-left, .node-page-with-banner.view-mode-views_content > .group-header, .col-lg-9, .col-lg-8, .node-page-with-banner.view-mode-views_content > .group-left, .col-lg-7, .col-lg-6, .col-lg-5, .col-lg-4, .col-lg-3, .col-lg-2, .node-page-with-banner.view-mode-full > .group-right, .node-page-with-banner.view-mode-views_content > .group-right, .col-lg-1 {
     float: left; }
 
   .col-lg-1 {
     width: 8.33333%; }
 
-  .col-lg-2, .node-page-with-banner > .group-right {
+  .col-lg-2, .node-page-with-banner.view-mode-full > .group-right, .node-page-with-banner.view-mode-views_content > .group-right {
     width: 16.66667%; }
 
   .col-lg-3 {
@@ -1189,13 +1189,13 @@ pre {
   .col-lg-7 {
     width: 58.33333%; }
 
-  .col-lg-8, .node-page-with-banner > .group-left {
+  .col-lg-8, .node-page-with-banner.view-mode-views_content > .group-left {
     width: 66.66667%; }
 
   .col-lg-9 {
     width: 75%; }
 
-  .col-lg-10, .node-page-with-banner > .group-header {
+  .col-lg-10, .node-page-with-banner.view-mode-full > .group-left, .node-page-with-banner.view-mode-views_content > .group-header {
     width: 83.33333%; }
 
   .col-lg-11 {
@@ -1288,7 +1288,7 @@ pre {
   .col-lg-offset-1 {
     margin-left: 8.33333%; }
 
-  .col-lg-offset-2, .node-page-with-banner > .group-header, .node-page-with-banner > .group-left {
+  .col-lg-offset-2, .node-page-with-banner.view-mode-views_content > .group-header, .node-page-with-banner.view-mode-views_content > .group-left {
     margin-left: 16.66667%; }
 
   .col-lg-offset-3 {
@@ -2329,24 +2329,28 @@ input[type="button"].btn-block {
       .navbar-collapse .navbar-text:last-child {
         margin-right: 0; } }
 
-.container > .navbar-header, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content > .navbar-header, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content > .navbar-header, .bean-banner-block .field-name-field-banner-block-banner > .navbar-header, #block-block-12 > .navbar-header, .above-content-region-wrapper .entity-bean > .content > .navbar-header, .below-content-region-wrapper .block > .navbar-header,
+.container > .navbar-header, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content > .navbar-header, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content > .navbar-header, .node-carousel .field-name-carousel-text > .navbar-header, .node-carousel .views-field-body > .navbar-header, .bean-banner-block .field-name-field-banner-block-banner > .navbar-header, .bean-color-block > .content > .navbar-header, #block-block-12 > .navbar-header, .below-content-region-wrapper .block > .navbar-header,
 .container > .navbar-collapse,
 .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content > .navbar-collapse,
 .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content > .navbar-collapse,
+.node-carousel .field-name-carousel-text > .navbar-collapse,
+.node-carousel .views-field-body > .navbar-collapse,
 .bean-banner-block .field-name-field-banner-block-banner > .navbar-collapse,
+.bean-color-block > .content > .navbar-collapse,
 #block-block-12 > .navbar-collapse,
-.above-content-region-wrapper .entity-bean > .content > .navbar-collapse,
 .below-content-region-wrapper .block > .navbar-collapse {
   margin-right: -15px;
   margin-left: -15px; }
   @media (min-width: 768px) {
-    .container > .navbar-header, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content > .navbar-header, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content > .navbar-header, .bean-banner-block .field-name-field-banner-block-banner > .navbar-header, #block-block-12 > .navbar-header, .above-content-region-wrapper .entity-bean > .content > .navbar-header, .below-content-region-wrapper .block > .navbar-header,
+    .container > .navbar-header, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content > .navbar-header, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content > .navbar-header, .node-carousel .field-name-carousel-text > .navbar-header, .node-carousel .views-field-body > .navbar-header, .bean-banner-block .field-name-field-banner-block-banner > .navbar-header, .bean-color-block > .content > .navbar-header, #block-block-12 > .navbar-header, .below-content-region-wrapper .block > .navbar-header,
     .container > .navbar-collapse,
     .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content > .navbar-collapse,
     .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content > .navbar-collapse,
+    .node-carousel .field-name-carousel-text > .navbar-collapse,
+    .node-carousel .views-field-body > .navbar-collapse,
     .bean-banner-block .field-name-field-banner-block-banner > .navbar-collapse,
+    .bean-color-block > .content > .navbar-collapse,
     #block-block-12 > .navbar-collapse,
-    .above-content-region-wrapper .entity-bean > .content > .navbar-collapse,
     .below-content-region-wrapper .block > .navbar-collapse {
       margin-right: 0;
       margin-left: 0; } }
@@ -2386,7 +2390,7 @@ input[type="button"].btn-block {
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
   @media (min-width: 768px) {
-    .navbar > .container .navbar-brand, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .navbar > .field-content .navbar-brand, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .navbar > .field-content .navbar-brand, .bean-banner-block .navbar > .field-name-field-banner-block-banner .navbar-brand, .navbar > #block-block-12 .navbar-brand, .above-content-region-wrapper .entity-bean.navbar > .content .navbar-brand, .below-content-region-wrapper .navbar > .block .navbar-brand {
+    .navbar > .container .navbar-brand, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .navbar > .field-content .navbar-brand, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .navbar > .field-content .navbar-brand, .node-carousel .navbar > .field-name-carousel-text .navbar-brand, .node-carousel .navbar > .views-field-body .navbar-brand, .bean-banner-block .navbar > .field-name-field-banner-block-banner .navbar-brand, .bean-color-block.navbar > .content .navbar-brand, .navbar > #block-block-12 .navbar-brand, .below-content-region-wrapper .navbar > .block .navbar-brand {
       margin-left: -15px; } }
 
 .navbar-toggle {
@@ -2810,21 +2814,21 @@ input[type="button"].btn-block {
   line-height: 2.14286;
   color: inherit;
   background-color: #eeeeee; }
-  .jumbotron h1, .jumbotron .node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header .jumbotron .field-name-field-headline, .jumbotron .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .jumbotron .field-name-headline-with-anchor {
+  .jumbotron h1, .jumbotron .node-page-with-banner .field-name-field-headline, .node-page-with-banner .jumbotron .field-name-field-headline, .jumbotron .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .jumbotron .field-name-headline-with-anchor {
     line-height: 1;
     color: inherit; }
   .jumbotron p {
     line-height: 1.4; }
-  .container .jumbotron, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content .jumbotron, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content .jumbotron, .bean-banner-block .field-name-field-banner-block-banner .jumbotron, #block-block-12 .jumbotron, .above-content-region-wrapper .entity-bean > .content .jumbotron, .below-content-region-wrapper .block .jumbotron {
+  .container .jumbotron, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content .jumbotron, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content .jumbotron, .node-carousel .field-name-carousel-text .jumbotron, .node-carousel .views-field-body .jumbotron, .bean-banner-block .field-name-field-banner-block-banner .jumbotron, .bean-color-block > .content .jumbotron, #block-block-12 .jumbotron, .below-content-region-wrapper .block .jumbotron {
     border-radius: 6px; }
   @media screen and (min-width: 768px) {
     .jumbotron {
       padding-top: 48px;
       padding-bottom: 48px; }
-      .container .jumbotron, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content .jumbotron, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content .jumbotron, .bean-banner-block .field-name-field-banner-block-banner .jumbotron, #block-block-12 .jumbotron, .above-content-region-wrapper .entity-bean > .content .jumbotron, .below-content-region-wrapper .block .jumbotron {
+      .container .jumbotron, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content .jumbotron, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content .jumbotron, .node-carousel .field-name-carousel-text .jumbotron, .node-carousel .views-field-body .jumbotron, .bean-banner-block .field-name-field-banner-block-banner .jumbotron, .bean-color-block > .content .jumbotron, #block-block-12 .jumbotron, .below-content-region-wrapper .block .jumbotron {
         padding-left: 60px;
         padding-right: 60px; }
-      .jumbotron h1, .jumbotron .node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header .jumbotron .field-name-field-headline, .jumbotron .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .jumbotron .field-name-headline-with-anchor {
+      .jumbotron h1, .jumbotron .node-page-with-banner .field-name-field-headline, .node-page-with-banner .jumbotron .field-name-field-headline, .jumbotron .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .jumbotron .field-name-headline-with-anchor {
         font-size: 63px; } }
 
 .thumbnail {
@@ -3231,151 +3235,177 @@ td.visible-lg {
   th.visible-lg,
   td.visible-lg {
     display: table-cell !important; } }
-.hidden-xs, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner > .group-right {
+.hidden-xs, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner.view-mode-full > .group-right, .node-page-with-banner.view-mode-views_content > .group-right {
   display: block !important; }
 
-tr.hidden-xs, .view-id-solutions.view-display-id-page .view-content tr.custom-navigator, .view-id-services.view-display-id-page .view-content tr.custom-navigator, .node-page-with-banner > tr.group-right {
+tr.hidden-xs, .view-id-solutions.view-display-id-page .view-content tr.custom-navigator, .view-id-services.view-display-id-page .view-content tr.custom-navigator, .node-page-with-banner.view-mode-full > tr.group-right, .node-page-with-banner.view-mode-views_content > tr.group-right {
   display: table-row !important; }
 
-th.hidden-xs, .view-id-solutions.view-display-id-page .view-content th.custom-navigator, .view-id-services.view-display-id-page .view-content th.custom-navigator, .node-page-with-banner > th.group-right,
+th.hidden-xs, .view-id-solutions.view-display-id-page .view-content th.custom-navigator, .view-id-services.view-display-id-page .view-content th.custom-navigator, .node-page-with-banner.view-mode-full > th.group-right, .node-page-with-banner.view-mode-views_content > th.group-right,
 td.hidden-xs,
 .view-id-solutions.view-display-id-page .view-content td.custom-navigator,
 .view-id-services.view-display-id-page .view-content td.custom-navigator,
-.node-page-with-banner > td.group-right {
+.node-page-with-banner.view-mode-full > td.group-right,
+.node-page-with-banner.view-mode-views_content > td.group-right {
   display: table-cell !important; }
 
 @media (max-width: 767px) {
-  .hidden-xs, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner > .group-right,
+  .hidden-xs, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner.view-mode-full > .group-right, .node-page-with-banner.view-mode-views_content > .group-right,
   tr.hidden-xs,
   .view-id-solutions.view-display-id-page .view-content tr.custom-navigator,
   .view-id-services.view-display-id-page .view-content tr.custom-navigator,
-  .node-page-with-banner > tr.group-right,
+  .node-page-with-banner.view-mode-full > tr.group-right,
+  .node-page-with-banner.view-mode-views_content > tr.group-right,
   th.hidden-xs,
   .view-id-solutions.view-display-id-page .view-content th.custom-navigator,
   .view-id-services.view-display-id-page .view-content th.custom-navigator,
-  .node-page-with-banner > th.group-right,
+  .node-page-with-banner.view-mode-full > th.group-right,
+  .node-page-with-banner.view-mode-views_content > th.group-right,
   td.hidden-xs,
   .view-id-solutions.view-display-id-page .view-content td.custom-navigator,
   .view-id-services.view-display-id-page .view-content td.custom-navigator,
-  .node-page-with-banner > td.group-right {
+  .node-page-with-banner.view-mode-full > td.group-right,
+  .node-page-with-banner.view-mode-views_content > td.group-right {
     display: none !important; } }
 @media (min-width: 768px) and (max-width: 991px) {
-  .hidden-xs.hidden-sm, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner > .group-right,
+  .hidden-xs.hidden-sm, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner.view-mode-full > .group-right, .node-page-with-banner.view-mode-views_content > .group-right,
   tr.hidden-xs.hidden-sm,
   .view-id-solutions.view-display-id-page .view-content tr.custom-navigator,
   .view-id-services.view-display-id-page .view-content tr.custom-navigator,
-  .node-page-with-banner > tr.group-right,
+  .node-page-with-banner.view-mode-full > tr.group-right,
+  .node-page-with-banner.view-mode-views_content > tr.group-right,
   th.hidden-xs.hidden-sm,
   .view-id-solutions.view-display-id-page .view-content th.custom-navigator,
   .view-id-services.view-display-id-page .view-content th.custom-navigator,
-  .node-page-with-banner > th.group-right,
+  .node-page-with-banner.view-mode-full > th.group-right,
+  .node-page-with-banner.view-mode-views_content > th.group-right,
   td.hidden-xs.hidden-sm,
   .view-id-solutions.view-display-id-page .view-content td.custom-navigator,
   .view-id-services.view-display-id-page .view-content td.custom-navigator,
-  .node-page-with-banner > td.group-right {
+  .node-page-with-banner.view-mode-full > td.group-right,
+  .node-page-with-banner.view-mode-views_content > td.group-right {
     display: none !important; } }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .hidden-xs.hidden-md, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner > .hidden-md.group-right,
+  .hidden-xs.hidden-md, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner.view-mode-full > .hidden-md.group-right, .node-page-with-banner.view-mode-views_content > .hidden-md.group-right,
   tr.hidden-xs.hidden-md,
   .view-id-solutions.view-display-id-page .view-content tr.custom-navigator,
   .view-id-services.view-display-id-page .view-content tr.custom-navigator,
-  .node-page-with-banner > tr.hidden-md.group-right,
+  .node-page-with-banner.view-mode-full > tr.hidden-md.group-right,
+  .node-page-with-banner.view-mode-views_content > tr.hidden-md.group-right,
   th.hidden-xs.hidden-md,
   .view-id-solutions.view-display-id-page .view-content th.custom-navigator,
   .view-id-services.view-display-id-page .view-content th.custom-navigator,
-  .node-page-with-banner > th.hidden-md.group-right,
+  .node-page-with-banner.view-mode-full > th.hidden-md.group-right,
+  .node-page-with-banner.view-mode-views_content > th.hidden-md.group-right,
   td.hidden-xs.hidden-md,
   .view-id-solutions.view-display-id-page .view-content td.custom-navigator,
   .view-id-services.view-display-id-page .view-content td.custom-navigator,
-  .node-page-with-banner > td.hidden-md.group-right {
+  .node-page-with-banner.view-mode-full > td.hidden-md.group-right,
+  .node-page-with-banner.view-mode-views_content > td.hidden-md.group-right {
     display: none !important; } }
 @media (min-width: 1200px) {
-  .hidden-xs.hidden-lg, .view-id-solutions.view-display-id-page .view-content .hidden-lg.custom-navigator, .view-id-services.view-display-id-page .view-content .hidden-lg.custom-navigator, .node-page-with-banner > .hidden-lg.group-right,
+  .hidden-xs.hidden-lg, .view-id-solutions.view-display-id-page .view-content .hidden-lg.custom-navigator, .view-id-services.view-display-id-page .view-content .hidden-lg.custom-navigator, .node-page-with-banner.view-mode-full > .hidden-lg.group-right, .node-page-with-banner.view-mode-views_content > .hidden-lg.group-right,
   tr.hidden-xs.hidden-lg,
   .view-id-solutions.view-display-id-page .view-content tr.hidden-lg.custom-navigator,
   .view-id-services.view-display-id-page .view-content tr.hidden-lg.custom-navigator,
-  .node-page-with-banner > tr.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-full > tr.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-views_content > tr.hidden-lg.group-right,
   th.hidden-xs.hidden-lg,
   .view-id-solutions.view-display-id-page .view-content th.hidden-lg.custom-navigator,
   .view-id-services.view-display-id-page .view-content th.hidden-lg.custom-navigator,
-  .node-page-with-banner > th.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-full > th.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-views_content > th.hidden-lg.group-right,
   td.hidden-xs.hidden-lg,
   .view-id-solutions.view-display-id-page .view-content td.hidden-lg.custom-navigator,
   .view-id-services.view-display-id-page .view-content td.hidden-lg.custom-navigator,
-  .node-page-with-banner > td.hidden-lg.group-right {
+  .node-page-with-banner.view-mode-full > td.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-views_content > td.hidden-lg.group-right {
     display: none !important; } }
-.hidden-sm, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner > .group-right {
+.hidden-sm, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner.view-mode-full > .group-right, .node-page-with-banner.view-mode-views_content > .group-right {
   display: block !important; }
 
-tr.hidden-sm, .view-id-solutions.view-display-id-page .view-content tr.custom-navigator, .view-id-services.view-display-id-page .view-content tr.custom-navigator, .node-page-with-banner > tr.group-right {
+tr.hidden-sm, .view-id-solutions.view-display-id-page .view-content tr.custom-navigator, .view-id-services.view-display-id-page .view-content tr.custom-navigator, .node-page-with-banner.view-mode-full > tr.group-right, .node-page-with-banner.view-mode-views_content > tr.group-right {
   display: table-row !important; }
 
-th.hidden-sm, .view-id-solutions.view-display-id-page .view-content th.custom-navigator, .view-id-services.view-display-id-page .view-content th.custom-navigator, .node-page-with-banner > th.group-right,
+th.hidden-sm, .view-id-solutions.view-display-id-page .view-content th.custom-navigator, .view-id-services.view-display-id-page .view-content th.custom-navigator, .node-page-with-banner.view-mode-full > th.group-right, .node-page-with-banner.view-mode-views_content > th.group-right,
 td.hidden-sm,
 .view-id-solutions.view-display-id-page .view-content td.custom-navigator,
 .view-id-services.view-display-id-page .view-content td.custom-navigator,
-.node-page-with-banner > td.group-right {
+.node-page-with-banner.view-mode-full > td.group-right,
+.node-page-with-banner.view-mode-views_content > td.group-right {
   display: table-cell !important; }
 
 @media (max-width: 767px) {
-  .hidden-sm.hidden-xs, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner > .group-right,
+  .hidden-sm.hidden-xs, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner.view-mode-full > .group-right, .node-page-with-banner.view-mode-views_content > .group-right,
   tr.hidden-sm.hidden-xs,
   .view-id-solutions.view-display-id-page .view-content tr.custom-navigator,
   .view-id-services.view-display-id-page .view-content tr.custom-navigator,
-  .node-page-with-banner > tr.group-right,
+  .node-page-with-banner.view-mode-full > tr.group-right,
+  .node-page-with-banner.view-mode-views_content > tr.group-right,
   th.hidden-sm.hidden-xs,
   .view-id-solutions.view-display-id-page .view-content th.custom-navigator,
   .view-id-services.view-display-id-page .view-content th.custom-navigator,
-  .node-page-with-banner > th.group-right,
+  .node-page-with-banner.view-mode-full > th.group-right,
+  .node-page-with-banner.view-mode-views_content > th.group-right,
   td.hidden-sm.hidden-xs,
   .view-id-solutions.view-display-id-page .view-content td.custom-navigator,
   .view-id-services.view-display-id-page .view-content td.custom-navigator,
-  .node-page-with-banner > td.group-right {
+  .node-page-with-banner.view-mode-full > td.group-right,
+  .node-page-with-banner.view-mode-views_content > td.group-right {
     display: none !important; } }
 @media (min-width: 768px) and (max-width: 991px) {
-  .hidden-sm, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner > .group-right,
+  .hidden-sm, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner.view-mode-full > .group-right, .node-page-with-banner.view-mode-views_content > .group-right,
   tr.hidden-sm,
   .view-id-solutions.view-display-id-page .view-content tr.custom-navigator,
   .view-id-services.view-display-id-page .view-content tr.custom-navigator,
-  .node-page-with-banner > tr.group-right,
+  .node-page-with-banner.view-mode-full > tr.group-right,
+  .node-page-with-banner.view-mode-views_content > tr.group-right,
   th.hidden-sm,
   .view-id-solutions.view-display-id-page .view-content th.custom-navigator,
   .view-id-services.view-display-id-page .view-content th.custom-navigator,
-  .node-page-with-banner > th.group-right,
+  .node-page-with-banner.view-mode-full > th.group-right,
+  .node-page-with-banner.view-mode-views_content > th.group-right,
   td.hidden-sm,
   .view-id-solutions.view-display-id-page .view-content td.custom-navigator,
   .view-id-services.view-display-id-page .view-content td.custom-navigator,
-  .node-page-with-banner > td.group-right {
+  .node-page-with-banner.view-mode-full > td.group-right,
+  .node-page-with-banner.view-mode-views_content > td.group-right {
     display: none !important; } }
 @media (min-width: 992px) and (max-width: 1199px) {
-  .hidden-sm.hidden-md, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner > .hidden-md.group-right,
+  .hidden-sm.hidden-md, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner.view-mode-full > .hidden-md.group-right, .node-page-with-banner.view-mode-views_content > .hidden-md.group-right,
   tr.hidden-sm.hidden-md,
   .view-id-solutions.view-display-id-page .view-content tr.custom-navigator,
   .view-id-services.view-display-id-page .view-content tr.custom-navigator,
-  .node-page-with-banner > tr.hidden-md.group-right,
+  .node-page-with-banner.view-mode-full > tr.hidden-md.group-right,
+  .node-page-with-banner.view-mode-views_content > tr.hidden-md.group-right,
   th.hidden-sm.hidden-md,
   .view-id-solutions.view-display-id-page .view-content th.custom-navigator,
   .view-id-services.view-display-id-page .view-content th.custom-navigator,
-  .node-page-with-banner > th.hidden-md.group-right,
+  .node-page-with-banner.view-mode-full > th.hidden-md.group-right,
+  .node-page-with-banner.view-mode-views_content > th.hidden-md.group-right,
   td.hidden-sm.hidden-md,
   .view-id-solutions.view-display-id-page .view-content td.custom-navigator,
   .view-id-services.view-display-id-page .view-content td.custom-navigator,
-  .node-page-with-banner > td.hidden-md.group-right {
+  .node-page-with-banner.view-mode-full > td.hidden-md.group-right,
+  .node-page-with-banner.view-mode-views_content > td.hidden-md.group-right {
     display: none !important; } }
 @media (min-width: 1200px) {
-  .hidden-sm.hidden-lg, .view-id-solutions.view-display-id-page .view-content .hidden-lg.custom-navigator, .view-id-services.view-display-id-page .view-content .hidden-lg.custom-navigator, .node-page-with-banner > .hidden-lg.group-right,
+  .hidden-sm.hidden-lg, .view-id-solutions.view-display-id-page .view-content .hidden-lg.custom-navigator, .view-id-services.view-display-id-page .view-content .hidden-lg.custom-navigator, .node-page-with-banner.view-mode-full > .hidden-lg.group-right, .node-page-with-banner.view-mode-views_content > .hidden-lg.group-right,
   tr.hidden-sm.hidden-lg,
   .view-id-solutions.view-display-id-page .view-content tr.hidden-lg.custom-navigator,
   .view-id-services.view-display-id-page .view-content tr.hidden-lg.custom-navigator,
-  .node-page-with-banner > tr.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-full > tr.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-views_content > tr.hidden-lg.group-right,
   th.hidden-sm.hidden-lg,
   .view-id-solutions.view-display-id-page .view-content th.hidden-lg.custom-navigator,
   .view-id-services.view-display-id-page .view-content th.hidden-lg.custom-navigator,
-  .node-page-with-banner > th.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-full > th.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-views_content > th.hidden-lg.group-right,
   td.hidden-sm.hidden-lg,
   .view-id-solutions.view-display-id-page .view-content td.hidden-lg.custom-navigator,
   .view-id-services.view-display-id-page .view-content td.hidden-lg.custom-navigator,
-  .node-page-with-banner > td.hidden-lg.group-right {
+  .node-page-with-banner.view-mode-full > td.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-views_content > td.hidden-lg.group-right {
     display: none !important; } }
 .hidden-md, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator {
   display: block !important; }
@@ -3390,34 +3420,40 @@ td.hidden-md,
   display: table-cell !important; }
 
 @media (max-width: 767px) {
-  .hidden-md.hidden-xs, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner > .hidden-md.group-right,
+  .hidden-md.hidden-xs, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner.view-mode-full > .hidden-md.group-right, .node-page-with-banner.view-mode-views_content > .hidden-md.group-right,
   tr.hidden-md.hidden-xs,
   .view-id-solutions.view-display-id-page .view-content tr.custom-navigator,
   .view-id-services.view-display-id-page .view-content tr.custom-navigator,
-  .node-page-with-banner > tr.hidden-md.group-right,
+  .node-page-with-banner.view-mode-full > tr.hidden-md.group-right,
+  .node-page-with-banner.view-mode-views_content > tr.hidden-md.group-right,
   th.hidden-md.hidden-xs,
   .view-id-solutions.view-display-id-page .view-content th.custom-navigator,
   .view-id-services.view-display-id-page .view-content th.custom-navigator,
-  .node-page-with-banner > th.hidden-md.group-right,
+  .node-page-with-banner.view-mode-full > th.hidden-md.group-right,
+  .node-page-with-banner.view-mode-views_content > th.hidden-md.group-right,
   td.hidden-md.hidden-xs,
   .view-id-solutions.view-display-id-page .view-content td.custom-navigator,
   .view-id-services.view-display-id-page .view-content td.custom-navigator,
-  .node-page-with-banner > td.hidden-md.group-right {
+  .node-page-with-banner.view-mode-full > td.hidden-md.group-right,
+  .node-page-with-banner.view-mode-views_content > td.hidden-md.group-right {
     display: none !important; } }
 @media (min-width: 768px) and (max-width: 991px) {
-  .hidden-md.hidden-sm, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner > .hidden-md.group-right,
+  .hidden-md.hidden-sm, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator, .node-page-with-banner.view-mode-full > .hidden-md.group-right, .node-page-with-banner.view-mode-views_content > .hidden-md.group-right,
   tr.hidden-md.hidden-sm,
   .view-id-solutions.view-display-id-page .view-content tr.custom-navigator,
   .view-id-services.view-display-id-page .view-content tr.custom-navigator,
-  .node-page-with-banner > tr.hidden-md.group-right,
+  .node-page-with-banner.view-mode-full > tr.hidden-md.group-right,
+  .node-page-with-banner.view-mode-views_content > tr.hidden-md.group-right,
   th.hidden-md.hidden-sm,
   .view-id-solutions.view-display-id-page .view-content th.custom-navigator,
   .view-id-services.view-display-id-page .view-content th.custom-navigator,
-  .node-page-with-banner > th.hidden-md.group-right,
+  .node-page-with-banner.view-mode-full > th.hidden-md.group-right,
+  .node-page-with-banner.view-mode-views_content > th.hidden-md.group-right,
   td.hidden-md.hidden-sm,
   .view-id-solutions.view-display-id-page .view-content td.custom-navigator,
   .view-id-services.view-display-id-page .view-content td.custom-navigator,
-  .node-page-with-banner > td.hidden-md.group-right {
+  .node-page-with-banner.view-mode-full > td.hidden-md.group-right,
+  .node-page-with-banner.view-mode-views_content > td.hidden-md.group-right {
     display: none !important; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-md, .view-id-solutions.view-display-id-page .view-content .custom-navigator, .view-id-services.view-display-id-page .view-content .custom-navigator,
@@ -3454,34 +3490,40 @@ td.hidden-lg {
   display: table-cell !important; }
 
 @media (max-width: 767px) {
-  .hidden-lg.hidden-xs, .view-id-solutions.view-display-id-page .view-content .hidden-lg.custom-navigator, .view-id-services.view-display-id-page .view-content .hidden-lg.custom-navigator, .node-page-with-banner > .hidden-lg.group-right,
+  .hidden-lg.hidden-xs, .view-id-solutions.view-display-id-page .view-content .hidden-lg.custom-navigator, .view-id-services.view-display-id-page .view-content .hidden-lg.custom-navigator, .node-page-with-banner.view-mode-full > .hidden-lg.group-right, .node-page-with-banner.view-mode-views_content > .hidden-lg.group-right,
   tr.hidden-lg.hidden-xs,
   .view-id-solutions.view-display-id-page .view-content tr.hidden-lg.custom-navigator,
   .view-id-services.view-display-id-page .view-content tr.hidden-lg.custom-navigator,
-  .node-page-with-banner > tr.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-full > tr.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-views_content > tr.hidden-lg.group-right,
   th.hidden-lg.hidden-xs,
   .view-id-solutions.view-display-id-page .view-content th.hidden-lg.custom-navigator,
   .view-id-services.view-display-id-page .view-content th.hidden-lg.custom-navigator,
-  .node-page-with-banner > th.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-full > th.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-views_content > th.hidden-lg.group-right,
   td.hidden-lg.hidden-xs,
   .view-id-solutions.view-display-id-page .view-content td.hidden-lg.custom-navigator,
   .view-id-services.view-display-id-page .view-content td.hidden-lg.custom-navigator,
-  .node-page-with-banner > td.hidden-lg.group-right {
+  .node-page-with-banner.view-mode-full > td.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-views_content > td.hidden-lg.group-right {
     display: none !important; } }
 @media (min-width: 768px) and (max-width: 991px) {
-  .hidden-lg.hidden-sm, .view-id-solutions.view-display-id-page .view-content .hidden-lg.custom-navigator, .view-id-services.view-display-id-page .view-content .hidden-lg.custom-navigator, .node-page-with-banner > .hidden-lg.group-right,
+  .hidden-lg.hidden-sm, .view-id-solutions.view-display-id-page .view-content .hidden-lg.custom-navigator, .view-id-services.view-display-id-page .view-content .hidden-lg.custom-navigator, .node-page-with-banner.view-mode-full > .hidden-lg.group-right, .node-page-with-banner.view-mode-views_content > .hidden-lg.group-right,
   tr.hidden-lg.hidden-sm,
   .view-id-solutions.view-display-id-page .view-content tr.hidden-lg.custom-navigator,
   .view-id-services.view-display-id-page .view-content tr.hidden-lg.custom-navigator,
-  .node-page-with-banner > tr.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-full > tr.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-views_content > tr.hidden-lg.group-right,
   th.hidden-lg.hidden-sm,
   .view-id-solutions.view-display-id-page .view-content th.hidden-lg.custom-navigator,
   .view-id-services.view-display-id-page .view-content th.hidden-lg.custom-navigator,
-  .node-page-with-banner > th.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-full > th.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-views_content > th.hidden-lg.group-right,
   td.hidden-lg.hidden-sm,
   .view-id-solutions.view-display-id-page .view-content td.hidden-lg.custom-navigator,
   .view-id-services.view-display-id-page .view-content td.hidden-lg.custom-navigator,
-  .node-page-with-banner > td.hidden-lg.group-right {
+  .node-page-with-banner.view-mode-full > td.hidden-lg.group-right,
+  .node-page-with-banner.view-mode-views_content > td.hidden-lg.group-right {
     display: none !important; } }
 @media (min-width: 992px) and (max-width: 1199px) {
   .hidden-lg.hidden-md, .view-id-solutions.view-display-id-page .view-content .hidden-lg.custom-navigator, .view-id-services.view-display-id-page .view-content .hidden-lg.custom-navigator,
@@ -3545,14 +3587,14 @@ td.visible-print {
 .padding-bottom-20px {
   padding-bottom: 20px; }
 
-.section-title, .section-title-no-arrow, .bean-mini-blocks-with-icons.headline_bg_white .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_black .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_white .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_white .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_black .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_black .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_light_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_blue .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_dark_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-headline-with-anchor, .block-bean-banner-block .block-title, #block-block-2 .block__content, .block-bean-color-block .block-title {
+.section-title, .section-title-no-arrow, .bean-mini-blocks-with-icons.headline_bg_white .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_black .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_white .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_white .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_black .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_black .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_light_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_blue .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_dark_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-headline-with-anchor, .block-bean-banner-block .block-title, #block-block-2 .block__content, .block-bean-color-block .block-title {
   position: relative;
   font-size: 20px;
   color: #ffffff;
   padding: 12px;
   text-transform: uppercase;
   text-align: center; }
-  .section-title::after, .section-title-no-arrow::after, .bean-mini-blocks-with-icons.headline_bg_white .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_black .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_white .node-page-with-banner > .group-header .field-name-headline-with-anchor::after, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_white .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_black .node-page-with-banner > .group-header .field-name-headline-with-anchor::after, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_black .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_light_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor::after, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor::after, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_blue .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor::after, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_dark_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor::after, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-headline-with-anchor::after, .block-bean-banner-block .block-title::after, #block-block-2 .block__content::after, .block-bean-color-block .block-title::after {
+  .section-title::after, .section-title-no-arrow::after, .bean-mini-blocks-with-icons.headline_bg_white .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_black .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_white .node-page-with-banner .field-name-headline-with-anchor::after, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_white .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_black .node-page-with-banner .field-name-headline-with-anchor::after, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_black .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_light_blue .node-page-with-banner .field-name-headline-with-anchor::after, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_blue .node-page-with-banner .field-name-headline-with-anchor::after, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_blue .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .node-page-with-banner .field-name-headline-with-anchor::after, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_dark_blue .node-page-with-banner .field-name-headline-with-anchor::after, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-headline-with-anchor::after, .block-bean-banner-block .block-title::after, #block-block-2 .block__content::after, .block-bean-color-block .block-title::after {
     content: '';
     position: absolute;
     top: 100%;
@@ -3564,7 +3606,7 @@ td.visible-print {
     border-left: solid 15px transparent;
     border-right: solid 15px transparent; }
 
-.section-title-no-arrow::after, .bean-mini-blocks-with-icons.headline_bg_white .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_black .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_white .node-page-with-banner > .group-header .field-name-headline-with-anchor::after, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_white .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_black .node-page-with-banner > .group-header .field-name-headline-with-anchor::after, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_black .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_light_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor::after, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor::after, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_blue .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor::after, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_dark_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor::after, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-headline-with-anchor::after, .block-bean-banner-block .block-title::after, #block-block-2 .block__content::after {
+.section-title-no-arrow::after, .bean-mini-blocks-with-icons.headline_bg_white .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_black .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-field-headline::after, .bean-mini-blocks-with-icons.headline_bg_white .node-page-with-banner .field-name-headline-with-anchor::after, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_white .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_black .node-page-with-banner .field-name-headline-with-anchor::after, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_black .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_light_blue .node-page-with-banner .field-name-headline-with-anchor::after, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_blue .node-page-with-banner .field-name-headline-with-anchor::after, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_blue .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .node-page-with-banner .field-name-headline-with-anchor::after, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-headline-with-anchor::after, .bean-mini-blocks-with-icons.headline_bg_dark_blue .node-page-with-banner .field-name-headline-with-anchor::after, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-headline-with-anchor::after, .block-bean-banner-block .block-title::after, #block-block-2 .block__content::after {
   display: none; }
 
 /*
@@ -3582,26 +3624,26 @@ body {
   font-size: 16px;
   line-height: 1.4; }
 
-h1, .node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header .field-name-headline-with-anchor, h2, .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item, .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor, .bean-color-block .field-name-field-color-block-headline, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+h1, .node-page-with-banner .field-name-field-headline, .node-page-with-banner .field-name-headline-with-anchor, h2, .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item, .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor, .bean-color-block .field-name-field-color-block-headline, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: Open Sans, Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: bold; }
 
-h1, .node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header .field-name-headline-with-anchor {
+h1, .node-page-with-banner .field-name-field-headline, .node-page-with-banner .field-name-headline-with-anchor {
   font-size: 40.625px;
   font-weight: 300;
   line-height: 1.4;
   color: #049fd9; }
   @media screen and (min-width: 768px) {
-    h1, .node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header .field-name-headline-with-anchor {
+    h1, .node-page-with-banner .field-name-field-headline, .node-page-with-banner .field-name-headline-with-anchor {
       font-size: 40.625px; } }
   @media screen and (min-width: 992px) {
-    h1, .node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header .field-name-headline-with-anchor {
+    h1, .node-page-with-banner .field-name-field-headline, .node-page-with-banner .field-name-headline-with-anchor {
       font-size: 43.75px; } }
   @media screen and (min-width: 1200px) {
-    h1, .node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header .field-name-headline-with-anchor {
+    h1, .node-page-with-banner .field-name-field-headline, .node-page-with-banner .field-name-headline-with-anchor {
       font-size: 50px; } }
 
-h2, .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item, .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor, .bean-color-block .field-name-field-color-block-headline {
+h2, .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item, .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor, .bean-color-block .field-name-field-color-block-headline {
   letter-spacing: -2px; }
 
 h3 {
@@ -4016,11 +4058,18 @@ body.admin-menu {
         color: #2c2c2c;
         text-transform: uppercase;
         font-weight: bolder; }
+        .view-id-solutions.view-display-id-page .view-content .custom-navigator ul li a:focus, .view-id-services.view-display-id-page .view-content .custom-navigator ul li a:focus {
+          background: none; }
+        .view-id-solutions.view-display-id-page .view-content .custom-navigator ul li a:hover, .view-id-services.view-display-id-page .view-content .custom-navigator ul li a:hover {
+          background: none;
+          color: #049fd9; }
       .view-id-solutions.view-display-id-page .view-content .custom-navigator ul li.active a, .view-id-services.view-display-id-page .view-content .custom-navigator ul li.active a {
         color: #049fd9; }
     .view-id-solutions.view-display-id-page .view-content .custom-navigator.affix, .view-id-services.view-display-id-page .view-content .custom-navigator.affix {
       position: fixed;
-      top: 130px;
+      top: 0px;
+      padding-top: 50px;
+      padding-bottom: 50px;
       background: url("img/background/white_transparent_bg.png") repeat center center transparent;
       height: 100%; }
 
@@ -4032,7 +4081,7 @@ body.admin-menu {
 **/
 .view-id-partners.view-display-id-page .view-header {
   margin-bottom: 40px; }
-  .view-id-partners.view-display-id-page .view-header h1, .view-id-partners.view-display-id-page .view-header .node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header .view-id-partners.view-display-id-page .view-header .field-name-field-headline, .view-id-partners.view-display-id-page .view-header .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .view-id-partners.view-display-id-page .view-header .field-name-headline-with-anchor {
+  .view-id-partners.view-display-id-page .view-header h1, .view-id-partners.view-display-id-page .view-header .node-page-with-banner .field-name-field-headline, .node-page-with-banner .view-id-partners.view-display-id-page .view-header .field-name-field-headline, .view-id-partners.view-display-id-page .view-header .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .view-id-partners.view-display-id-page .view-header .field-name-headline-with-anchor {
     color: #049fd9; }
   .view-id-partners.view-display-id-page .view-header p {
     font-size: 18px;
@@ -4052,11 +4101,11 @@ body.admin-menu {
     color: #404041; }
 
 @media screen and (min-width: 768px) {
-  .navbar.container, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .navbar.field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .navbar.field-content, .bean-banner-block .navbar.field-name-field-banner-block-banner, .navbar#block-block-12, .above-content-region-wrapper .entity-bean > .navbar.content, .below-content-region-wrapper .navbar.block {
+  .navbar.container, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .navbar.field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .navbar.field-content, .node-carousel .navbar.field-name-carousel-text, .node-carousel .navbar.views-field-body, .bean-banner-block .navbar.field-name-field-banner-block-banner, .bean-color-block > .navbar.content, .navbar#block-block-12, .below-content-region-wrapper .navbar.block {
     max-width: none;
     border-radius: 0px; } }
 
-#navbar .container, #navbar-mobile .container, #navbar .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title #navbar .field-content, #navbar-mobile .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title #navbar-mobile .field-content, #navbar .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title #navbar .field-content, #navbar-mobile .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title #navbar-mobile .field-content, #navbar .bean-banner-block .field-name-field-banner-block-banner, .bean-banner-block #navbar .field-name-field-banner-block-banner, #navbar-mobile .bean-banner-block .field-name-field-banner-block-banner, .bean-banner-block #navbar-mobile .field-name-field-banner-block-banner, #navbar #block-block-12, #navbar-mobile #block-block-12, #navbar .above-content-region-wrapper .entity-bean > .content, .above-content-region-wrapper #navbar .entity-bean > .content, #navbar-mobile .above-content-region-wrapper .entity-bean > .content, .above-content-region-wrapper #navbar-mobile .entity-bean > .content, #navbar .below-content-region-wrapper .block, .below-content-region-wrapper #navbar .block, #navbar-mobile .below-content-region-wrapper .block, .below-content-region-wrapper #navbar-mobile .block {
+#navbar .container, #navbar-mobile .container, #navbar .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title #navbar .field-content, #navbar-mobile .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title .field-content, .view-id-custom_content.view-display-id-block_1 .views-row .views-field-title #navbar-mobile .field-content, #navbar .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title #navbar .field-content, #navbar-mobile .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title .field-content, .view-id-custom_content.view-the-board-of-directors.view-display-id-block .views-row .views-field-title #navbar-mobile .field-content, #navbar .node-carousel .field-name-carousel-text, .node-carousel #navbar .field-name-carousel-text, #navbar-mobile .node-carousel .field-name-carousel-text, .node-carousel #navbar-mobile .field-name-carousel-text, #navbar .node-carousel .views-field-body, .node-carousel #navbar .views-field-body, #navbar-mobile .node-carousel .views-field-body, .node-carousel #navbar-mobile .views-field-body, #navbar .bean-banner-block .field-name-field-banner-block-banner, .bean-banner-block #navbar .field-name-field-banner-block-banner, #navbar-mobile .bean-banner-block .field-name-field-banner-block-banner, .bean-banner-block #navbar-mobile .field-name-field-banner-block-banner, #navbar .bean-color-block > .content, #navbar-mobile .bean-color-block > .content, #navbar #block-block-12, #navbar-mobile #block-block-12, #navbar .below-content-region-wrapper .block, .below-content-region-wrapper #navbar .block, #navbar-mobile .below-content-region-wrapper .block, .below-content-region-wrapper #navbar-mobile .block {
   width: auto; }
 #navbar .navbar-default, #navbar-mobile .navbar-default {
   margin-bottom: 0px;
@@ -4160,7 +4209,7 @@ body.admin-menu {
       .field-collection-container .field-collection-view .field-collection-item-field-mini-blocks .field-name-field-description {
         text-align: initial;
         font-size: 11.7px;
-        line-height: 1.4;
+        line-height: 1.8;
         color: white;
         font-weight: bold; }
       .field-collection-container .field-collection-view .field-collection-item-field-mini-blocks .field-name-field-background-color {
@@ -4261,113 +4310,35 @@ body.admin-menu {
   position: relative;
   margin-left: 0px; }
   .node-carousel .field-name-carousel-text, .node-carousel .views-field-body {
-    position: absolute;
-    top: 15%;
-    left: 35%;
-    width: 35%;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    text-shadow: 1px 1px 1px #000000; }
-    .node-carousel .field-name-carousel-text .carousel_text_body, .node-carousel .views-field-body .carousel_text_body {
-      font-size: 30px;
-      line-height: 36px;
-      margin-top: 10px;
-      margin-bottom: 20px; }
-    .node-carousel .field-name-carousel-text .carousel_text_cta_link a, .node-carousel .views-field-body .carousel_text_cta_link a {
-      font-size: 18px; }
-    @media screen and (max-width: 992px) {
-      .node-carousel .field-name-carousel-text, .node-carousel .views-field-body {
-        position: relative;
-        top: 0;
-        left: 0;
-        padding: 5%;
-        width: 100%;
-        background: #4cceff; }
-        .node-carousel .field-name-carousel-text .carousel_text_cta_link, .node-carousel .views-field-body .carousel_text_cta_link {
-          text-align: center; }
-          .node-carousel .field-name-carousel-text .carousel_text_cta_link a, .node-carousel .views-field-body .carousel_text_cta_link a {
-            font-size: 14px; } }
-
-#block-views-image-carousel-block .flexslider_views_slideshow_slide {
-  position: relative;
-  margin-left: 0px; }
-  #block-views-image-carousel-block .flexslider_views_slideshow_slide .views-field.views-field-body {
-    position: absolute;
-    top: 0;
-    left: 10%;
-    width: 80%;
-    color: white;
-    font-weight: bold;
-    font-size: 60px;
-    line-height: 1.2;
-    text-align: center;
-    height: 100%; }
-    #block-views-image-carousel-block .flexslider_views_slideshow_slide .views-field.views-field-body .field-content {
-      height: 100%;
-      min-height: 100%;
-      display: table;
-      max-width: 1200px;
-      margin: 0 auto; }
-      #block-views-image-carousel-block .flexslider_views_slideshow_slide .views-field.views-field-body .field-content a {
-        display: table-cell;
-        color: #ffffff;
-        vertical-align: middle; }
-        #block-views-image-carousel-block .flexslider_views_slideshow_slide .views-field.views-field-body .field-content a:hover {
-          text-decoration: none;
-          color: #21529d; }
-      #block-views-image-carousel-block .flexslider_views_slideshow_slide .views-field.views-field-body .field-content .carousel-text {
-        display: table-cell;
-        color: #ffffff;
-        vertical-align: middle;
-        font-weight: bold; }
-    @media screen and (max-width: 768px) {
-      #block-views-image-carousel-block .flexslider_views_slideshow_slide .views-field.views-field-body {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        margin-top: 0px;
-        font-size: 20px; }
-        #block-views-image-carousel-block .flexslider_views_slideshow_slide .views-field.views-field-body .field-content {
-          height: auto;
-          display: block;
-          background: #049fd9; }
-          #block-views-image-carousel-block .flexslider_views_slideshow_slide .views-field.views-field-body .field-content a {
-            color: #ffffff;
-            display: block; }
-          #block-views-image-carousel-block .flexslider_views_slideshow_slide .views-field.views-field-body .field-content .carousel-text {
-            padding: 20px 10px;
-            display: inline-block;
-            text-align: center; } }
+    padding: 15px;
+    background: url("img/background/black_transparent_bg.png") repeat center center #000000; }
+    .node-carousel .field-name-carousel-text .field-items .field-item, .node-carousel .views-field-body .field-items .field-item {
+      font-size: 15.6px;
+      font-weight: 300;
+      line-height: 1.4;
+      color: #ffffff; }
     @media screen and (min-width: 768px) {
-      #block-views-image-carousel-block .flexslider_views_slideshow_slide .views-field.views-field-body {
-        font-size: 32px; } }
+      .node-carousel .field-name-carousel-text, .node-carousel .views-field-body {
+        position: absolute;
+        z-index: 10;
+        bottom: 0;
+        left: 0px;
+        width: 100%;
+        background-color: transparent; }
+        .node-carousel .field-name-carousel-text .field-items .field-item, .node-carousel .views-field-body .field-items .field-item {
+          font-size: 15.6px; } }
     @media screen and (min-width: 992px) {
-      #block-views-image-carousel-block .flexslider_views_slideshow_slide .views-field.views-field-body {
-        font-size: 62.5px; } }
+      .node-carousel .field-name-carousel-text, .node-carousel .views-field-body {
+        padding: 40px; }
+        .node-carousel .field-name-carousel-text .field-items .field-item, .node-carousel .views-field-body .field-items .field-item {
+          font-size: 16.8px; } }
     @media screen and (min-width: 1200px) {
-      #block-views-image-carousel-block .flexslider_views_slideshow_slide .views-field.views-field-body {
-        font-size: 64px; } }
-#block-views-image-carousel-block .flex-direction-nav .flex-prev, #block-views-image-carousel-block .flexslider .flex-direction-nav .flex-next, .flexslider #block-views-image-carousel-block .flex-direction-nav .flex-next, #block-views-image-carousel-block .flex-direction-nav .flex-next {
-  margin-top: 30px; }
-@media screen and (max-width: 239px) {
-  #block-views-image-carousel-block .flex-direction-nav .flex-prev, #block-views-image-carousel-block .flexslider .flex-direction-nav .flex-next, .flexslider #block-views-image-carousel-block .flex-direction-nav .flex-next, #block-views-image-carousel-block .flex-direction-nav .flex-next {
-    margin-top: -20px;
-    top: 24%; } }
-@media screen and (min-width: 240px) and (max-width: 359px) {
-  #block-views-image-carousel-block .flex-direction-nav .flex-prev, #block-views-image-carousel-block .flexslider .flex-direction-nav .flex-next, .flexslider #block-views-image-carousel-block .flex-direction-nav .flex-next, #block-views-image-carousel-block .flex-direction-nav .flex-next {
-    margin-top: -20px;
-    top: 30%; } }
-@media screen and (min-width: 360px) and (max-width: 480px) {
-  #block-views-image-carousel-block .flex-direction-nav .flex-prev, #block-views-image-carousel-block .flexslider .flex-direction-nav .flex-next, .flexslider #block-views-image-carousel-block .flex-direction-nav .flex-next, #block-views-image-carousel-block .flex-direction-nav .flex-next {
-    margin-top: -20px;
-    top: 35%; } }
-@media screen and (min-width: 480px) and (max-width: 768px) {
-  #block-views-image-carousel-block .flex-direction-nav .flex-prev, #block-views-image-carousel-block .flexslider .flex-direction-nav .flex-next, .flexslider #block-views-image-carousel-block .flex-direction-nav .flex-next, #block-views-image-carousel-block .flex-direction-nav .flex-next {
-    margin-top: -20px;
-    top: 45%; } }
+      .node-carousel .field-name-carousel-text .field-items .field-item, .node-carousel .views-field-body .field-items .field-item {
+        font-size: 19.2px; } }
+    .node-carousel .field-name-carousel-text .carousel_text_cta_link, .node-carousel .views-field-body .carousel_text_cta_link {
+      margin-top: 20px; }
+      .node-carousel .field-name-carousel-text .carousel_text_cta_link a, .node-carousel .views-field-body .carousel_text_cta_link a {
+        font-size: 18px; }
 
 .flexslider {
   margin-bottom: 0px;
@@ -4375,7 +4346,7 @@ body.admin-menu {
   .flexslider .flex-control-nav {
     width: 100%;
     position: absolute;
-    bottom: 50px;
+    bottom: 20px;
     z-index: 100; }
     .flexslider .flex-control-nav.flex-control-paging {
       right: 45%;
@@ -4459,7 +4430,7 @@ body.admin-menu {
 .bean-mini-blocks-with-icons {
   text-align: center;
   padding: 30px 0; }
-  .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor {
     font-size: 40.625px;
     font-weight: 300;
     line-height: 1.4;
@@ -4488,43 +4459,53 @@ body.admin-menu {
     background-color: #5a5b5c; }
   .bean-mini-blocks-with-icons.bg_color_dark_grey {
     background-color: #4a4a4c; }
+    .bean-mini-blocks-with-icons.bg_color_dark_grey .field-collection-container .field-collection-view .field-collection-item-field-mini-blocks.transparent .field {
+      color: #ffffff; }
   .bean-mini-blocks-with-icons.bg_color_black {
     background-color: #000000; }
+    .bean-mini-blocks-with-icons.bg_color_black .field-collection-container .field-collection-view .field-collection-item-field-mini-blocks.transparent .field {
+      color: #ffffff; }
   .bean-mini-blocks-with-icons.bg_color_light_blue {
     background-color: #4cceff; }
   .bean-mini-blocks-with-icons.bg_color_blue {
     background-color: #00b1f0; }
+    .bean-mini-blocks-with-icons.bg_color_blue .field-collection-container .field-collection-view .field-collection-item-field-mini-blocks.transparent .field {
+      color: #ffffff; }
   .bean-mini-blocks-with-icons.bg_color_medium_dark_blue {
     background-color: #0970b8; }
+    .bean-mini-blocks-with-icons.bg_color_medium_dark_blue .field-collection-container .field-collection-view .field-collection-item-field-mini-blocks.transparent .field {
+      color: #ffffff; }
   .bean-mini-blocks-with-icons.bg_color_dark_blue {
     background-color: #21529d; }
-  .bean-mini-blocks-with-icons.headline_black .field-name-field-headline, .bean-mini-blocks-with-icons.headline_black .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_black .field-name-headline-with-anchor {
+    .bean-mini-blocks-with-icons.bg_color_dark_blue .field-collection-container .field-collection-view .field-collection-item-field-mini-blocks.transparent .field {
+      color: #ffffff; }
+  .bean-mini-blocks-with-icons.headline_black .field-name-field-headline, .bean-mini-blocks-with-icons.headline_black .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_black .field-name-headline-with-anchor {
     color: #000000; }
-  .bean-mini-blocks-with-icons.headline_white .field-name-field-headline, .bean-mini-blocks-with-icons.headline_white .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_white .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons.headline_white .field-name-field-headline, .bean-mini-blocks-with-icons.headline_white .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_white .field-name-headline-with-anchor {
     color: #ffffff; }
-  .bean-mini-blocks-with-icons.headline_light_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_light_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_light_blue .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons.headline_light_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_light_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_light_blue .field-name-headline-with-anchor {
     color: #4cceff; }
-  .bean-mini-blocks-with-icons.headline_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_blue .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons.headline_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_blue .field-name-headline-with-anchor {
     color: #00b1f0; }
-  .bean-mini-blocks-with-icons.headline_medium_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_medium_dark_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_medium_dark_blue .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons.headline_medium_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_medium_dark_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_medium_dark_blue .field-name-headline-with-anchor {
     color: #0970b8; }
-  .bean-mini-blocks-with-icons.headline_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_dark_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_dark_blue .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons.headline_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_dark_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_dark_blue .field-name-headline-with-anchor {
     color: #21529d; }
-  .bean-mini-blocks-with-icons.headline_white_grey .field-name-field-headline, .bean-mini-blocks-with-icons.headline_white_grey .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_white_grey .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons.headline_white_grey .field-name-field-headline, .bean-mini-blocks-with-icons.headline_white_grey .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_white_grey .field-name-headline-with-anchor {
     color: #f5f5f5; }
-  .bean-mini-blocks-with-icons.headline_bg_white .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_black .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_white .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_white .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_black .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_black .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_light_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_blue .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_dark_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons.headline_bg_white .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_black .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_white .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_white .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_black .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_black .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_light_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_blue .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-headline-with-anchor, .bean-mini-blocks-with-icons.headline_bg_dark_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-headline-with-anchor {
     background-color: #ffffff; }
-  .bean-mini-blocks-with-icons.headline_bg_black .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_black .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_black .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons.headline_bg_black .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_black .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_black .field-name-headline-with-anchor {
     background-color: #000000; }
-  .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_light_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_light_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_light_blue .field-name-headline-with-anchor {
     background-color: #4cceff; }
-  .bean-mini-blocks-with-icons.headline_bg_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_blue .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons.headline_bg_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_blue .field-name-headline-with-anchor {
     background-color: #00b1f0; }
-  .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_medium_dark_blue .field-name-headline-with-anchor {
     background-color: #0970b8; }
-  .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_dark_blue .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-field-headline, .bean-mini-blocks-with-icons.headline_bg_dark_blue .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.headline_bg_dark_blue .field-name-headline-with-anchor {
     background-color: #21529d; }
-  .bean-mini-blocks-with-icons.without_gutter .field-name-field-headline, .bean-mini-blocks-with-icons.without_gutter .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons.without_gutter .field-name-headline-with-anchor {
+  .bean-mini-blocks-with-icons.without_gutter .field-name-field-headline, .bean-mini-blocks-with-icons.without_gutter .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons.without_gutter .field-name-headline-with-anchor {
     margin-bottom: 10px; }
   .bean-mini-blocks-with-icons.without_gutter .field-name-field-mini-blocks > .field-items {
     margin: 0px; }
@@ -4553,8 +4534,7 @@ body.admin-menu {
     border: 1px solid #B2C3CB; }
   @media screen and (min-width: 768px) {
     .bean-mini-blocks-with-icons.mini_blocks_style_icon_overlay .field-name-field-mini-blocks .field-collection-item-field-mini-blocks {
-      padding: 15px;
-      min-height: 200px; } }
+      padding: 15px; } }
   .bean-mini-blocks-with-icons.cta_link_style_blue_bg_white_font_with_border .field-name-field-cta-link a {
     border: 2px solid #ffffff; }
   .bean-mini-blocks-with-icons.cta_link_style_medium_dark_blue_bg_white_font_with_border .field-name-field-cta-link a {
@@ -4566,25 +4546,22 @@ body.admin-menu {
   .bean-mini-blocks-with-icons.cta_link_style_orange_red_bg_white_font_with_border .field-name-field-cta-link a {
     border: 2px solid #ffffff; }
   @media screen and (min-width: 768px) {
-    .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor {
+    .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor {
       font-size: 40.625px; }
     .bean-mini-blocks-with-icons .field-name-field-mini-blocks-description {
       font-size: 15.6px; }
     .bean-mini-blocks-with-icons .field-name-field-mini-blocks .field-collection-item-field-mini-blocks {
-      padding: 15px;
-      min-height: 260px; } }
+      padding: 15px; } }
   @media screen and (min-width: 992px) {
-    .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor {
+    .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor {
       font-size: 43.75px; }
     .bean-mini-blocks-with-icons .field-name-field-mini-blocks-description {
       font-size: 16.8px; } }
   @media screen and (min-width: 1200px) {
-    .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor {
+    .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor {
       font-size: 50px; }
     .bean-mini-blocks-with-icons .field-name-field-mini-blocks-description {
-      font-size: 19.2px; }
-    .bean-mini-blocks-with-icons .field-name-field-mini-blocks .field-collection-item-field-mini-blocks {
-      min-height: 300px; } }
+      font-size: 19.2px; } }
 
 /***
  *
@@ -4676,7 +4653,7 @@ body.admin-menu {
 .block {
   margin-top: 0px;
   margin-bottom: 0px; }
-  .block:first-child h2.block-title, .block:first-child .bean-banner-block .field-name-field-banner-block-banner .field-items .block-title.field-item, .bean-banner-block .field-name-field-banner-block-banner .field-items .block:first-child .block-title.field-item, .block:first-child .bean-mini-blocks-with-icons .block-title.field-name-field-headline, .bean-mini-blocks-with-icons .block:first-child .block-title.field-name-field-headline, .block:first-child .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .block-title.field-name-headline-with-anchor, .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .block:first-child .block-title.field-name-headline-with-anchor, .block:first-child .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .block-title.field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .block:first-child .block-title.field-name-headline-with-anchor, .block:first-child .bean-color-block .block-title.field-name-field-color-block-headline, .bean-color-block .block:first-child .block-title.field-name-field-color-block-headline {
+  .block:first-child h2.block-title, .block:first-child .bean-banner-block .field-name-field-banner-block-banner .field-items .block-title.field-item, .bean-banner-block .field-name-field-banner-block-banner .field-items .block:first-child .block-title.field-item, .block:first-child .bean-mini-blocks-with-icons .block-title.field-name-field-headline, .bean-mini-blocks-with-icons .block:first-child .block-title.field-name-field-headline, .block:first-child .bean-mini-blocks-with-icons .node-page-with-banner .block-title.field-name-headline-with-anchor, .bean-mini-blocks-with-icons .node-page-with-banner .block:first-child .block-title.field-name-headline-with-anchor, .block:first-child .node-page-with-banner .bean-mini-blocks-with-icons .block-title.field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons .block:first-child .block-title.field-name-headline-with-anchor, .block:first-child .bean-color-block .block-title.field-name-field-color-block-headline, .bean-color-block .block:first-child .block-title.field-name-field-color-block-headline {
     margin-top: 20px; }
   .block .block-title {
     font-size: 40.625px;
@@ -4773,32 +4750,6 @@ body.admin-menu {
   clear: left;
   margin: auto; }
 
-/**
-*		Rest-Assured block
-**/
-#block-bean-rest-assured .block-title {
-  display: none; }
-#block-bean-rest-assured .field-name-field-color-block-description {
-  color: #000000; }
-
-/**
-*		solutions block
-**/
-#block-bean-solutions .field-name-field-headline, #block-bean-solutions .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header #block-bean-solutions .field-name-headline-with-anchor {
-  margin-top: 0px; }
-#block-bean-solutions .field-name-field-title {
-  color: #ffffff; }
-#block-bean-solutions .field-name-field-description {
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 28.8px; }
-@media screen and (min-width: 768px) {
-  #block-bean-solutions .field-type-field-collection > .field-items > .field-item.even {
-    min-height: 458px; }
-  #block-bean-solutions .field-type-field-collection > .field-items > .field-item.odd {
-    min-height: 458px; } }
-
 .solutions-bg {
   background: url("img/background/solutions_bg.jpg") repeat center center #828282; }
 
@@ -4846,55 +4797,6 @@ body.admin-menu {
         padding: 20px 10px 10px 20px; }
       .block-president-quote-home .quote-description .quote-person {
         padding-right: 25px; } }
-
-/**
-*  block-first-world-services
-**/
-#block-bean-first-world-services .block-title {
-  display: none; }
-#block-bean-first-world-services .field-collection-item-field-mini-blocks {
-  display: none; }
-#block-bean-first-world-services .field-name-field-headline, #block-bean-first-world-services .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header #block-bean-first-world-services .field-name-headline-with-anchor {
-  margin-top: 0px; }
-  #block-bean-first-world-services .field-name-field-headline .field-item, #block-bean-first-world-services .node-page-with-banner > .group-header .field-name-headline-with-anchor .field-item, .node-page-with-banner > .group-header #block-bean-first-world-services .field-name-headline-with-anchor .field-item {
-    color: #049fd9; }
-#block-bean-first-world-services .block-description > p {
-  color: #000000;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 36px; }
-#block-bean-first-world-services .services-block-items {
-  margin-top: 30px; }
-  #block-bean-first-world-services .services-block-items .item-content {
-    width: 90%;
-    background-color: #ffffff;
-    margin: 0 auto; }
-    #block-bean-first-world-services .services-block-items .item-content .item-image img {
-      width: 100% !important;
-      height: auto !important; }
-    #block-bean-first-world-services .services-block-items .item-content .item-text {
-      text-align: center;
-      min-height: 270px; }
-      #block-bean-first-world-services .services-block-items .item-content .item-text .item-title {
-        margin: 20px 15px 0; }
-        #block-bean-first-world-services .services-block-items .item-content .item-text .item-title > p {
-          color: #000000;
-          font-size: 18px;
-          font-weight: 600; }
-      #block-bean-first-world-services .services-block-items .item-content .item-text .item-description {
-        padding: 20px; }
-        #block-bean-first-world-services .services-block-items .item-content .item-text .item-description > p {
-          color: #000000;
-          font-size: 14px;
-          font-weight: normal;
-          line-height: 200%;
-          padding: 0px; }
-@media screen and (max-width: 768px) {
-  #block-bean-first-world-services .services-block-items > .block-item {
-    margin-bottom: 20px; }
-    #block-bean-first-world-services .services-block-items > .block-item .item-text {
-      min-height: max-content;
-      padding-bottom: 10px; } }
 
 /**
 *		Our Best Partners Block
@@ -4952,12 +4854,6 @@ body.admin-menu {
 /**
 *	Partner - home
 **/
-#block-bean-home-above-service-banner-bloc .content {
-  padding: 0px;
-  width: 100%; }
-  #block-bean-home-above-service-banner-bloc .content img {
-    width: 100%; }
-
 /**
 *		Sidebar Second Region Block Styling
 **/
@@ -5005,6 +4901,10 @@ body.admin-menu {
   height: 100%;
   width: 100%; }
 
+#block-locale-language .language-switcher-locale-url li {
+  display: inline-block;
+  margin-left: 10px; }
+
 .tabs--primary {
   margin-bottom: 20px; }
 
@@ -5014,7 +4914,6 @@ body.admin-menu {
   top: 0px;
   z-index: 100;
   width: 100%;
-  position: fixed;
   border-bottom: 30px solid #049fd9; }
   @media screen and (max-width: 1200px) {
     #page-header {
@@ -5044,19 +4943,9 @@ body.admin-menu {
 
 body.front #page-header {
   border: 0px; }
-@media screen and (min-width: 1199px) {
-  body.front .page-content {
-    margin-top: 70px; } }
 body.front .btn_with_arrow_with_orange_bk, body.front .orange_red_bold_btn_with_arrow, body.front .bean-mini-blocks-with-icons.cta_link_style_orange_red_bg_white_font .field-name-field-cta-link a, .bean-mini-blocks-with-icons.cta_link_style_orange_red_bg_white_font .field-name-field-cta-link body.front a, body.front .bean-mini-blocks-with-icons.cta_link_style_orange_red_bg_white_font_with_border .field-name-field-cta-link a, .bean-mini-blocks-with-icons.cta_link_style_orange_red_bg_white_font_with_border .field-name-field-cta-link body.front a, body.front .bean-color-block.cta_link_style_orange_red_bg_white_font .field-name-field-cta-link a, .bean-color-block.cta_link_style_orange_red_bg_white_font .field-name-field-cta-link body.front a, body.front .bean-color-block.cta_link_style_orange_red_bg_white_font_with_border .field-name-field-cta-link a, .bean-color-block.cta_link_style_orange_red_bg_white_font_with_border .field-name-field-cta-link body.front a, body.front #block-block-12 .our-partner-link a, #block-block-12 .our-partner-link body.front a, body.front .node-webform .webform-client-form .form-actions .form-submit, .node-webform .webform-client-form .form-actions body.front .form-submit {
   font-size: 26px;
   letter-spacing: -2px; }
-
-.slicknav_menu {
-  display: none !important; }
-
-@media screen and (min-width: 1199px) {
-  .page-content {
-    margin-top: 130px; } }
 
 /**
  *	Disable the fixed header for login users.
@@ -5084,7 +4973,7 @@ body.front .btn_with_arrow_with_orange_bk, body.front .orange_red_bold_btn_with_
 .content-container {
   margin-top: 30px; }
 
-.page-solutions .content-container,
+.page-products .content-container,
 .page-services .content-container {
   padding-right: 15px;
   padding-left: 15px;
@@ -5107,8 +4996,8 @@ body.front .btn_with_arrow_with_orange_bk, body.front .orange_red_bold_btn_with_
   position: relative;
   z-index: 999; }
   .footer .footer-content a.logo img {
-    width: 100%;
-    height: auto; }
+    width: auto;
+    height: 50px; }
   .footer .footer-content .col-sm-6, .footer .footer-content .bean-mini-blocks-with-icons.col_2 .field-name-field-mini-blocks > .field-items > .field-item, .bean-mini-blocks-with-icons.col_2 .footer .footer-content .field-name-field-mini-blocks > .field-items > .field-item, .footer .footer-content .bean-mini-blocks-with-icons.col_4 .field-name-field-mini-blocks > .field-items > .field-item, .bean-mini-blocks-with-icons.col_4 .footer .footer-content .field-name-field-mini-blocks > .field-items > .field-item, .footer .footer-content .node-webform .group-left, .node-webform .footer .footer-content .group-left, .footer .footer-content .node-webform .group-right, .node-webform .footer .footer-content .group-right, .footer .footer-content .node-webform .webform-client-form .webform-component.webform-component-checkboxes .form-checkboxes .checkbox, .node-webform .webform-client-form .webform-component.webform-component-checkboxes .form-checkboxes .footer .footer-content .checkbox {
     height: 60px; }
   .footer .footer-content .region-footer {
@@ -5166,17 +5055,26 @@ body.front .btn_with_arrow_with_orange_bk, body.front .orange_red_bold_btn_with_
     margin-bottom: 10px;
     font-weight: bold; }
 
-.node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header .field-name-headline-with-anchor {
-  margin-bottom: 20px; }
 @media screen and (min-width: 1200px) {
-  .node-page-with-banner > .group-right {
+  .node-page-with-banner.view-mode-full > .group-right {
     padding-right: 50px; } }
-.node-page-with-banner > .group-footer {
+.node-page-with-banner.view-mode-full > .group-footer {
   margin: 20px 0;
   padding: 0px; }
-  .node-page-with-banner > .group-footer img {
+  .node-page-with-banner.view-mode-full > .group-footer img {
     width: 100%;
     height: auto; }
+@media screen and (min-width: 1200px) {
+  .node-page-with-banner.view-mode-views_content > .group-right {
+    padding-right: 50px; } }
+.node-page-with-banner.view-mode-views_content > .group-footer {
+  margin: 20px 0;
+  padding: 0px; }
+  .node-page-with-banner.view-mode-views_content > .group-footer img {
+    width: 100%;
+    height: auto; }
+.node-page-with-banner .field-name-field-headline, .node-page-with-banner .field-name-headline-with-anchor {
+  margin-bottom: 20px; }
 .node-page-with-banner .field-name-title {
   display: none; }
 .node-page-with-banner .field-name-body {
@@ -5187,7 +5085,7 @@ body.front .btn_with_arrow_with_orange_bk, body.front .orange_red_bold_btn_with_
 /**
 *  About Page
 **/
-#node-79 .field-items h1, #node-79 .field-items .node-page-with-banner > .group-header .field-name-field-headline, .node-page-with-banner > .group-header #node-79 .field-items .field-name-field-headline, #node-79 .field-items .node-page-with-banner > .group-header .field-name-headline-with-anchor, .node-page-with-banner > .group-header #node-79 .field-items .field-name-headline-with-anchor {
+#node-79 .field-items h1, #node-79 .field-items .node-page-with-banner .field-name-field-headline, .node-page-with-banner #node-79 .field-items .field-name-field-headline, #node-79 .field-items .node-page-with-banner .field-name-headline-with-anchor, .node-page-with-banner #node-79 .field-items .field-name-headline-with-anchor {
   color: #049fd9; }
 #node-79 .field-items p {
   color: #404041;
@@ -5222,7 +5120,7 @@ body.front .btn_with_arrow_with_orange_bk, body.front .orange_red_bold_btn_with_
   margin: 20px 0; }
 .node-blog .field-name-title {
   margin: 20px 0; }
-  .node-blog .field-name-title a, .node-blog .field-name-title h2, .node-blog .field-name-title .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item, .bean-banner-block .field-name-field-banner-block-banner .field-items .node-blog .field-name-title .field-item, .node-blog .field-name-title .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-blog .field-name-title .field-name-field-headline, .node-blog .field-name-title .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .field-name-headline-with-anchor, .bean-mini-blocks-with-icons .node-page-with-banner > .group-header .node-blog .field-name-title .field-name-headline-with-anchor, .node-blog .field-name-title .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .field-name-headline-with-anchor, .node-page-with-banner > .group-header .bean-mini-blocks-with-icons .node-blog .field-name-title .field-name-headline-with-anchor, .node-blog .field-name-title .bean-color-block .field-name-field-color-block-headline, .bean-color-block .node-blog .field-name-title .field-name-field-color-block-headline {
+  .node-blog .field-name-title a, .node-blog .field-name-title h2, .node-blog .field-name-title .bean-banner-block .field-name-field-banner-block-banner .field-items .field-item, .bean-banner-block .field-name-field-banner-block-banner .field-items .node-blog .field-name-title .field-item, .node-blog .field-name-title .bean-mini-blocks-with-icons .field-name-field-headline, .bean-mini-blocks-with-icons .node-blog .field-name-title .field-name-field-headline, .node-blog .field-name-title .bean-mini-blocks-with-icons .node-page-with-banner .field-name-headline-with-anchor, .bean-mini-blocks-with-icons .node-page-with-banner .node-blog .field-name-title .field-name-headline-with-anchor, .node-blog .field-name-title .node-page-with-banner .bean-mini-blocks-with-icons .field-name-headline-with-anchor, .node-page-with-banner .bean-mini-blocks-with-icons .node-blog .field-name-title .field-name-headline-with-anchor, .node-blog .field-name-title .bean-color-block .field-name-field-color-block-headline, .bean-color-block .node-blog .field-name-title .field-name-field-color-block-headline {
     color: #2c2c2c;
     font-size: 32px;
     font-weight: normal; }
@@ -5288,14 +5186,14 @@ body.front .btn_with_arrow_with_orange_bk, body.front .orange_red_bold_btn_with_
 *   Single page menu styling
 **/
 @media screen and (min-width: 768px) {
-  .page-solutions #page-header,
+  .page-products #page-header,
   .page-services #page-header,
   .page-partners #page-header,
   .page-views #page-header,
   .page-node-79 #page-header,
   .page-node-101 #page-header {
     padding: 0px; }
-    .page-solutions #page-header .navbar .navbar-nav li, .page-solutions #page-header .navbar #block-menu-block-1 .menu-block-wrapper > ul.menu li, #block-menu-block-1 .page-solutions #page-header .navbar .menu-block-wrapper > ul.menu li,
+    .page-products #page-header .navbar .navbar-nav li, .page-products #page-header .navbar #block-menu-block-1 .menu-block-wrapper > ul.menu li, #block-menu-block-1 .page-products #page-header .navbar .menu-block-wrapper > ul.menu li,
     .page-services #page-header .navbar .navbar-nav li,
     .page-services #page-header .navbar #block-menu-block-1 .menu-block-wrapper > ul.menu li,
     #block-menu-block-1 .page-services #page-header .navbar .menu-block-wrapper > ul.menu li,
@@ -5312,7 +5210,7 @@ body.front .btn_with_arrow_with_orange_bk, body.front .orange_red_bold_btn_with_
     .page-node-101 #page-header .navbar #block-menu-block-1 .menu-block-wrapper > ul.menu li,
     #block-menu-block-1 .page-node-101 #page-header .navbar .menu-block-wrapper > ul.menu li {
       padding: 20px 0; }
-      .page-solutions #page-header .navbar .navbar-nav li.active-trail.active, .page-solutions #page-header .navbar #block-menu-block-1 .menu-block-wrapper > ul.menu li.active-trail.active, #block-menu-block-1 .page-solutions #page-header .navbar .menu-block-wrapper > ul.menu li.active-trail.active,
+      .page-products #page-header .navbar .navbar-nav li.active-trail.active, .page-products #page-header .navbar #block-menu-block-1 .menu-block-wrapper > ul.menu li.active-trail.active, #block-menu-block-1 .page-products #page-header .navbar .menu-block-wrapper > ul.menu li.active-trail.active,
       .page-services #page-header .navbar .navbar-nav li.active-trail.active,
       .page-services #page-header .navbar #block-menu-block-1 .menu-block-wrapper > ul.menu li.active-trail.active,
       #block-menu-block-1 .page-services #page-header .navbar .menu-block-wrapper > ul.menu li.active-trail.active,
@@ -5330,7 +5228,7 @@ body.front .btn_with_arrow_with_orange_bk, body.front .orange_red_bold_btn_with_
       #block-menu-block-1 .page-node-101 #page-header .navbar .menu-block-wrapper > ul.menu li.active-trail.active {
         background-color: #049fd9;
         padding: 20px 0; }
-    .page-solutions #page-header .logo-section,
+    .page-products #page-header .logo-section,
     .page-services #page-header .logo-section,
     .page-partners #page-header .logo-section,
     .page-views #page-header .logo-section,

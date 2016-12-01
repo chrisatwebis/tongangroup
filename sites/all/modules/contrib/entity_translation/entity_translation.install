@@ -356,12 +356,7 @@ function entity_translation_update_7006() {
     'not null' => FALSE,
     'description' => 'The entity revision id this translation relates to',
   );
-
-  // Create revision id column if it doesn't exist already
-  if (!db_field_exists('entity_translation', 'revision_id')) {
-    db_add_field('entity_translation', 'revision_id', $spec);
-  }
-
+  db_add_field('entity_translation', 'revision_id', $spec);
 
   // Create the entity translation revision schema.
   $table = array(
@@ -434,12 +429,7 @@ function entity_translation_update_7006() {
     'primary key' => array('entity_type', 'revision_id', 'language'),
     'indexes'=> array('revision_id' => array('revision_id')),
   );
-
-  // Create entity translation revision table if it doesn't exist already
-  if (!db_table_exists('entity_translation_revision')) {
-    db_create_table('entity_translation_revision', $table);
-  }
-
+  db_create_table('entity_translation_revision', $table);
 }
 
 /**

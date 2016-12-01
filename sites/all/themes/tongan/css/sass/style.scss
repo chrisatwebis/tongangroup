@@ -11,7 +11,7 @@
 	top: 0px;
 	z-index: 100;
 	width: 100%;
-	position: fixed;
+	//position: fixed;
   border-bottom: 30px solid $orange_red;
 	@media screen and (max-width: $screen-lg) {
 		position: relative;
@@ -25,8 +25,6 @@
 			display: table-cell;
 			vertical-align: middle;
 			img {
-//				width: 100%;
-//				max-width: 360px;
 				width: auto;
 				max-height: 50px;
 			}
@@ -58,25 +56,12 @@ body {
 			border: 0px;
 		}
 		.page-content {
-			@media screen and (min-width: $screen-md-max) {
-				margin-top: 70px;
-			}      
 		}
 		.btn_with_arrow_with_orange_bk {
 			font-size: 26px;
 			letter-spacing: -2px;
 		}
 	}
-}
-
-.slicknav_menu {
-	display: none!important;
-}
-
-.page-content {
-	@media screen and (min-width: $screen-md-max) {
-		margin-top: 130px;
-	}      
 }
 
 /**
@@ -107,19 +92,12 @@ body {
 	margin-bottom: 5px;
 	display: none;
 }
-.above-content-region-wrapper {
-  .entity-bean {
-    > .content {
-      @extend .container;
-    }
-  }
-}
 
 .content-container {
 	margin-top: 30px;
 }
 
-.page-solutions .content-container, 
+.page-products .content-container, 
 .page-services .content-container {
   padding-right: 15px;
   padding-left: 15px;
@@ -151,8 +129,8 @@ body {
 	.footer-content {
 		a.logo {
 			img {
-				width: 100%;
-				height: auto;
+				width: auto;
+				height: 50px;
 			}
 		}
 		.col-sm-6 {
