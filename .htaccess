@@ -91,7 +91,7 @@ DirectoryIndex index.php index.html index.htm
   # uncomment the following:
   RewriteCond %{HTTP_HOST} .
   RewriteCond %{HTTP_HOST} !^www\. [NC]
-  RewriteCond %{HTTP_HOST} ^tongangroup\.com$ [NC]
+  RewriteCond %{HTTP_HOST} ^tongantech\.com$ [NC]
   RewriteRule ^ http%{ENV:protossl}://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
   #
@@ -149,3 +149,7 @@ DirectoryIndex index.php index.html index.htm
   # Disable content sniffing, since it's an attack vector.
   Header always set X-Content-Type-Options nosniff
 </IfModule>
+RewriteCond %{HTTP_HOST} ^tongangroup\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.tongangroup\.com$
+RewriteRule ^/?$ "http\:\/\/www\.tongantech\.com\/" [R=301,L]
+
