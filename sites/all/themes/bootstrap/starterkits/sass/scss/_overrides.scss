@@ -2,7 +2,7 @@
 $tablet:              "screen and (min-width: #{$screen-sm-min})";
 $normal:              "screen and (min-width: #{$screen-md-min})";
 $wide:                "screen and (min-width: #{$screen-lg-min})";
-$grid-breakpoint:     "screen and (min-width: #{$grid-float-breakpoint}";
+$grid-breakpoint:     "screen and (min-width: #{$grid-float-breakpoint})";
 
 // Drop shadows.
 @mixin box-shadow($shadow) {
@@ -846,4 +846,27 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 }
 #navbar-administration.navbar-oriented .navbar-tray-vertical {
   width: 24rem;
+}
+
+/**
+ * Icon styles.
+ */
+a {
+  &.icon-before .glyphicon {
+    margin-right: .25em;
+  }
+  &.icon-after .glyphicon {
+    margin-left: .25em;
+  }
+}
+
+.btn {
+  &.icon-before .glyphicon {
+    margin-left: -.25em;
+    margin-right: .25em;
+  }
+  &.icon-after .glyphicon {
+    margin-left: .25em;
+    margin-right: -.25em;
+  }
 }
